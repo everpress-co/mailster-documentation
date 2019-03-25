@@ -1,0 +1,16 @@
+# Advanced Settings
+
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#advanced).
+
+Some of these settings may affect your website. In normal circumstance it is not required to change anything on this page.
+
+Setting | Purpose
+--- | ---
+Usage Tracking | Enable usage tracking for your site. If you enable this option we are able to track the usage of Mailster on your site. We don't record any sensitive data but only information regarding the WordPress environment and plugin settings, which we use to make improvements to the plugin. Tracking is completely optional and can be disabled anytime.
+Cache | If enabled Mailster doesn't use cache anymore. This causes an increase in page load time! This option is not recommended!
+Remove Data	| Mailster will remove all it's data if you delete the plugin via the plugin page.
+URL Rewrite	| Mailster detects if your site supports URL rewrite. This setting by default so change only if detection fails.
+Form POST protection | Use on internal forms. Check if you have a heavy cached page and problems with invalid Security Nonce.
+PHP Mailer | You can switch to the included version if the WordPress native version causes troubles.
+
+![Advanced Settings Screen](/assets/settings-advanced.png)
