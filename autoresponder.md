@@ -30,7 +30,7 @@ For automated campaigns when new content has been published.
 
 Read more on our [knowledge base](https://kb.mailster.co/working-with-action-based-auto-responders/).
 
-### Tine based Autoreponder
+### Time based Autoreponder
 
 For automated campaigns in a specific time interval.
 

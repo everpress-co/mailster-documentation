@@ -30,7 +30,7 @@
 	- [Cron Job](cronjob.md)
 
 - Templates
-	- [General](templates-general.md)
+	- [General](templates.md)
 	- [Premium Templates](templates-premium.md)
 	- [Custom Templates](templates-custom.md)
 
