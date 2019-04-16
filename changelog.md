@@ -1,3 +1,14 @@
+### Version 2.3.18 (2019-04-16)
+
+* updated included template
+* added: option to use TLS on bounce servers
+* fixed: missing module buttons after code edit.
+* fixed: priority order in queue.
+* fixed: single quote in subject now correctly encoded
+* improved: handling of link mapping for multi byte characters.
+* improved: handling if notification.html file is missing
+* improved: better file sanitation on template uploads
+
 ### Version 2.3.17 (2019-03-19)
 
  * added: `mailster_add_embeded_style` method to add custom embeded styles.
