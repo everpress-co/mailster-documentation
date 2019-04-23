@@ -53,6 +53,8 @@ Each __Template File__ is structured as following:
 
 !> The `header` and `footer` can also be inside the modules but only if a `<module>` tag is wrapping the HTML.
 
+#### Example HTML
+
 Let's take a look at this example
 ```html
 <!--
