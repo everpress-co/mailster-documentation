@@ -68,7 +68,10 @@ Let's take a look at this example
     <title>{subject}</title>
    </head>
    <style>
-      //some styling here
+      //some styling here (will be inlined)
+   </style>
+   <style data-embed>
+      //some styling here (will NOT be inlined)
    </style>
 <body>
 <modules>
