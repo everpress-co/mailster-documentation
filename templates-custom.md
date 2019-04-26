@@ -66,22 +66,30 @@ Let's take a look at this example
     Version: 1.0
 -->
 <html>
-    <head>
+<head>
     <title>{subject}</title>
-   </head>
-   <style>
-      //some styling here (will be inlined)
-   </style>
-   <style data-embed>
-      //some styling here (will NOT be inlined)
-   </style>
+	<style>
+		/* some styling here (will be inlined) */
+	</style>
+	<style data-embed>
+		/* some styling here (will NOT be inlined) */
+	</style>
+</head>
 <body>
 <modules>
-   <module> </module>
-   <module> </module>
+	<module> </module>
+	<module> </module>
 </modules>
 </body>
 </html>
+```
+
+### Inlining CSS
+Mailster will automatically inline all you css declared in any `<style>` block in your document. You can prevent this by adding an `embed-data` attribute to the `<style>` tag:
+```html
+<style data-embed>
+	/* CSS declarations will not by inlined */
+</style>
 ```
 
 ## Preheader
@@ -111,6 +119,23 @@ You can also inline styles directly:
 ```
 
 !> Place the placeholder right after the open `<body>` tag if possible!
+
+## Webfonts
+
+There are plenty of ways to use webfonts in email. Read this [The Ultimate Guide to Web Fonts](https://litmus.com/blog/the-ultimate-guide-to-web-fonts) for further info.
+
+Here's an example using the `@import` method to use webfonts as well the `data-embed` attribute to prevent CSS inlining.
+
+```html
+<style type="text/css" data-embed>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+	@media only screen {
+		h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,table.textbutton a{font-family:'Roboto',Helvetica, Arial, sans-serif !important;}
+		table{font-family:'Roboto',Helvetica, Arial, sans-serif !important;}
+	}
+</style>
+```
+
 
 ## Content and Modules
 
@@ -163,15 +188,15 @@ You should name you modules depending on their content but you can use the same 
 ```html
 <modules>
 
-    <module label="My Fancy Module">
+    <module label="My Fancy Module" auto>
         ... // module content here
     </module>
 
-    <module label="My Second Module">
+    <module label="My Second Module" auto>
         ... // module content here
     </module>
 
-    <module label="Another Module">
+    <module label="Another Module" auto>
         ... // module content here
     </module>
 
@@ -374,7 +399,9 @@ It's a simpler version of your base __Template File__ and must include at least 
 - `{headline}`
 - `{content}`
 
-You should also include a `{notification}` tag which get replaced why and where users signed up
+You should also include a `{notification}` tag which get replaced why and where users signed up.
+
+!> Mailster will send a plain text email if not `notification.html` file is present in your template folder.
 
 ## Placeholder Images
 
@@ -399,8 +426,6 @@ Just use `https://dummy.newsletter-plugin.com/AAAxBBB.jpg` while AAA is for the 
 
 !> Only use the __jpg__ file extension!
 
-### EXTRA
-
 
 ## Tags
 
@@ -412,14 +437,14 @@ Tag | Content
 `{unsublink}` | unsubscribe link
 `{webversion}` | web version link including anchor tags
 `{webversionlink}` | web version link
-`{forward}` | web version link including anchor tags to forward mai
+`{forward}` | web version link including anchor tags to forward mail
 `{forwardlink}` | link to forward mai
-`{profile}` | adds a link to the profile pag
-`{profilelink}` | link to profile pag
-`{subject}` | subjec
+`{profile}` | adds a link to the profile page
+`{profilelink}` | link to profile page
+`{subject}` | subject
 `{preheader}` | preheader text
-`{headline}` | used for the headline in notification.htm
-`{content}` | used for the content in notification.htm
+`{headline}` | used for the headline in notification.html
+`{content}` | used for the content in notification.html
 `{notification}` | used for information about subscription in the notification.html
 `{copyright}` | displays the copyright defined in the setting
 `{email}` | subscribers email address wrapped in anchor tag
@@ -504,7 +529,7 @@ Only 6 digit color codes are recognized (`#123456`)
 If you like to make a color unchangeable simple use t.ree digit (#123) or color names ('red', 'green' blue',...). Don't use rgb or rgba definitions cause they are not supported in all clients.
 
 ### Background Images
-Mailster uses this approach to use background images in email. While background images do not work properly in all clients you should prepare your template to work with them. Simple wrap your email content into this table:
+While background images do not work properly in all clients you should prepare your template to work with them. Simple wrap your email content into this table:
 
 ```html
 <table width="100%" cellspacing="0" cellpadding="0">
