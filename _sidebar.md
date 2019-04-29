@@ -26,6 +26,7 @@
 - Other
 	- [Newsletter Homepage](newsletter-homepage.md)
 	- [Widgets](widgets.md)
+	- [Shortcodes](shortcodes.md)
 	- [Tags](tags.md)
 	- [Cron Job](cronjob.md)
 
