@@ -1,3 +1,17 @@
+### Version 2.4 (2019-05-22)
+
+* new: Use over 900K photos from Unsplash
+* new: RSS to Email Campaigns.
+* new: Random Post Tags
+* new: Campaign-Subscriber related tags
+* new: Custom Dynamic Post Types
+* new: additional Form shortcode attributes
+* new: Fresh UI
+* new: Translation Dashboard Info
+* improved: Preserved stats from deleted subscribers
+* improved: Mailster now stores your email address when you send a test
+* improved: Import Export
+
 ### Version 2.3.18 (2019-04-16)
 
 * updated included template
