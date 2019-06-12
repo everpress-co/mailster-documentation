@@ -1,3 +1,15 @@
+### Version 2.4.1 (2019-06-12)
+
+* fixed: duplication of forms working again
+* fixed: Subscribers are correctly connected if WordPress User is added later
+* fixed: picpicker only showed 8 recent files
+* fixed: unsubscribe auto responder works with list based subscriptions
+* fixed: small JavaScript issues in the editor
+* improved: better support for third party email with content type text/html
+* improved: better checks for content related autoresponders
+* improved: fixing broken settings automatically
+* improved: database update checks
+
 ### Version 2.4 (2019-05-22)
 
 * new: Use over 900K photos from Unsplash
