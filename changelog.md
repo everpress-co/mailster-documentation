@@ -1,3 +1,14 @@
+### Version 2.4.2 (2019-07-01)
+
+* change: dummy image service domain
+* improved: option to exclude taxonomies in dynamic tags
+* improved: forms no longer use native validation
+* fixed: remember usage tracking opt in setting
+* fixed: correctly redirect after campaign duplication
+* fixed: images from dynamic random post type in autoresponders
+* fixed: subscriberID is now correctly populated in confirmation messages
+* fixed: deprecated embed option
+
 ### Version 2.4.1 (2019-06-12)
 
 * fixed: duplication of forms working again

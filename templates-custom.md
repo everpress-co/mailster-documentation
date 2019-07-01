@@ -410,19 +410,19 @@ You can include all images within the final zip file. This is perfect for button
 For larger placeholder images you can use Mailsters dummy image service:
 
 ```html
-<img src="https://dummy.newsletter-plugin.com/600x300.jpg" editable label="Your label" />
+<img src="https://dummy.mailster.co/600x300.jpg" editable label="Your label" />
 ```
 
-Just use `https://dummy.newsletter-plugin.com/AAAxBBB.jpg` while AAA is for the width in pixels and BBB is the height.
+Just use `https://dummy.mailster.co/AAAxBBB.jpg` while AAA is for the width in pixels and BBB is the height.
 
 #### 600 x 300
-![Dummy Image](https://dummy.newsletter-plugin.com/600x300.jpg)
+![Dummy Image](https://dummy.mailster.co/600x300.jpg)
 
 #### 300 x 300
-![Dummy Image](https://dummy.newsletter-plugin.com/300x300.jpg)
+![Dummy Image](https://dummy.mailster.co/300x300.jpg)
 
 #### 230 x 100
-![Dummy Image](https://dummy.newsletter-plugin.com/230x100.jpg)
+![Dummy Image](https://dummy.mailster.co/230x100.jpg)
 
 !> Only use the __jpg__ file extension!
 
