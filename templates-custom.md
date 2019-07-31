@@ -28,6 +28,7 @@ Each __Template File__ must include a header, similar to the header of a WordPre
     Author: Your Name
     Author URI: https://example.com
     Version: 1.0
+    Width: XXX
 -->
 ```
 
@@ -40,7 +41,7 @@ Description (_optional_) | A short description to describe your __Template__
 Author | The name of the creator
 Author URI (_optional_)| The URL of the creator
 Version | current version number
-Width | width of the template (Desktop) used for the module screenshots (optional)
+Width (_optional_)| width of the template (Desktop) used for the module screenshots
 
 
 Each __Template File__ is structured as following:
