@@ -1,3 +1,19 @@
+###  Version 2.4.4 (2019-09-09)
+
+* improved: you can now encode tags output with an exclamation mark `{!mytag}`.
+* improved: drag n drop images from your desktop now respects cropped image setting.
+* improved: import screen.
+* improved: test mails now fallback to the current users email if not defined.
+* improved: subscriber query now search for ID as well.
+* fixed: notifications to multiple addresses.
+* fixed: modules without content sometimes preserve in the campaign.
+* fixed: issue with RSS campaigns on time based autoresponders.
+* fixed: wrong subscriber count if status "pending" in subscriber query.
+* fixed: cumulative count calculations.
+* fixed: redirecting issue with spaces in URLs.
+* updated to latest coding standards
+* code refactoring
+
 ### Version 2.4.3 (2019-07-31)
 
 * fixed: post_category tag now shows categories names again
