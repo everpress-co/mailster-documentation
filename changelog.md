@@ -1,3 +1,10 @@
+### Version 2.4.5 (2019-10-02)
+
+* fixed: issue saving 'send campaign only once' option
+* fixed: duplication of finished campaign no longer breaks module selection
+* improved: some fields are now stored urlencoded for better emoji support in databases with collation other than utf8mb4
+* changed: action hook auto responders no longer sent to all subscribers if subscriber id is set to `false` (use `null` instead)
+
 ###  Version 2.4.4 (2019-09-09)
 
 * improved: you can now encode tags output with an exclamation mark `{!mytag}`.
