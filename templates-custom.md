@@ -534,6 +534,7 @@ If you like to make a color unchangeable simple use t.ree digit (#123) or color 
 While background images do not work properly in all clients you should prepare your template to work with them. Simple wrap your email content into this table:
 
 ```html
+<body>
 <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
 		<td background="" align="center">

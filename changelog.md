@@ -1,6 +1,22 @@
+### Version 2.4.7 (2019-12-14)
+
+* improved: CSS for WordPress 5.3
+* improved: action type is now returned in form submission
+* improved: form submission on errors
+* fixed: content type selection not respected on dynamic insertion mode
+* fixed: ERR_CONNECTION_RESET issue on some Apache installations
+
+### Version 2.4.6 (2019-11-04)
+
+* tested with WordPress 5.3
+* fixed: potential XSS vulnerable on the subscribers detail page identified by Compass Security
+* fixed: single quote in subject now correctly encoded
+* fixed: confirm redirection issues on some installations
+* change: Redirect after submit and Redirect after confirmation must be a URL
+
 ### Version 2.4.5 (2019-10-02)
 
-* fixed: issue saving 'send campaign only once' option
+* fixed: issue saving "send campaign only once" option
 * fixed: duplication of finished campaign no longer breaks module selection
 * improved: some fields are now stored urlencoded for better emoji support in databases with collation other than utf8mb4
 * changed: action hook auto responders no longer sent to all subscribers if subscriber id is set to `false` (use `null` instead)
