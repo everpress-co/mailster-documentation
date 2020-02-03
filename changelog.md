@@ -1,3 +1,9 @@
+### Version 2.4.8 (2020-02-03)
+
+* fixed: escaped content on edit screen.
+* fixed: escaped several strings.
+* improved: United Kingdom is no longer part of the European Union.
+
 ### Version 2.4.7 (2019-12-14)
 
 * improved: CSS for WordPress 5.3
