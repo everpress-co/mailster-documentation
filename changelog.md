@@ -1,3 +1,19 @@
+### Version 2.4.9 (2020-03-24)
+
+* change: moved text strings for GDPR to text tab for better localization.
+* change: sanitize_content method no longer handles custom Mailster styles (changes to the methods arguments)
+* added: `mailster_add_tag` action hook to add custom tags.
+* added: `mailster_add_style` action hook to add custom styles.
+* improved: block tags removed in final output
+* improved: RSS feed method for more flexible feed support.
+* improved: tags now can return WP_Error object which prevents the campaign from sending.
+* added: `mailster_gdpr_label` filter to change the content.
+* fixed: empty strings on action hook based campaigns
+* fixed: unchecked required checkbox prevents form fields page from saving.
+* fixed: wrong less memory warning
+* fixed: problem with CodeEditor on Avada
+* fixed: missing inline styles on html elements from tags.
+
 ### Version 2.4.8 (2020-02-03)
 
 * fixed: escaped content on edit screen.
