@@ -1,3 +1,19 @@
+### Version 2.4.11 (2020-06-24)
+
+* change: changing the email address on the profile sets status to pending and sends confirmation message if double opt in is enabled.
+* change: the most recent notification is now displayed at the top.
+* added: `mailster_register_dynamic_post_type` action hook to add custom dynamic post types.
+* added: option to disable in-app-unsubscribe option
+* fixed: issue where editor is not loading with some themes activated
+* fixed: JS error if inline editor is not used
+* fixed: people got unsubscribed if bounce address is the same as sign up notifications email.
+* improved: User Agent handling.
+* improved: pasting text from external source.
+* improved: better support fro data-uris in style declarations.
+* improved: better handling of sending HTML message with third party plugins
+* removed: Gmail delivery option (fallback to SMTP)
+* deprecated: use of Gmail via LSA as announced via Google
+
 ### Version 2.4.10 (2020-05-25)
 
 * new: option to pick emoji for subject, preheader and from name
