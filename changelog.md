@@ -1,3 +1,19 @@
+### Version 2.4.12 (2020-08-04)
+
+* added: `mailster_inline_css` filter hook to disable auto inline css
+* fixed: problem with third party shortcodes in excerpt
+* fixed: several small bugfixes
+* fixed: wrong counting on dashboard widget
+* fixed: calculation of aggregated campaigns not accurate
+* fixed: relative path in modules
+* fixed: High DPI images on dynamic posts tags got wrong eight in some cases.
+* improved: consistent behavior on handling shortcodes
+* improved: Only the preheader text is shown in the email preview of email clients.
+* improved: `mailster_preview_text_fix` filter to disable preview text fix.
+* improved: automatically remove support accounts after one month after an update
+* improved: you can now click on form fields to add them to the form
+* improved: added missing aria labels
+
 ### Version 2.4.11 (2020-06-24)
 
 * change: changing the email address on the profile sets status to pending and sends confirmation message if double opt in is enabled.
