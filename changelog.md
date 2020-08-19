@@ -1,3 +1,14 @@
+### Version 2.4.13 (2020-08-19) =
+
+* added: classes to settings rows
+* added: option to handle short codes from the advanced settings tab
+* added: support for `{attachment_image:XX}` to display images
+* improved: handling of one click post requests for unsubscribes according to RFC8058
+* fixed: auto update feature in WP 5.5
+* fixed: do not localize variables
+* fixed: error in PHPMailer (#2107) where exception is thrown when background attribute is empty
+* fixed: multi site no longer share user meta data in conditions data between sub sites.
+
 ### Version 2.4.12 (2020-08-04)
 
 * added: `mailster_inline_css` filter hook to disable auto inline css
