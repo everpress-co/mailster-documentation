@@ -12,7 +12,7 @@ This file is used of Mailster sends
 - Double Opt In Confirmation
 - Notification about new users
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/post-new.php?post_type=newsletter&template=mymail&file=notification.html).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/post-new.php?post_type=newsletter&template=mymail&file=notification.html).
 
 ![Notification Template](assets/notification-template.png)
 

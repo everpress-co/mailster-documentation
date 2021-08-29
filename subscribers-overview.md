@@ -4,7 +4,7 @@ Mailster allow to manage all your subscribers inside your WordPress installation
 
 On the subscribers overview page you can find all your subscribers sorted by their status.
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers).
 
 ![Subscribers Overview](assets/subscribers-overview.png)
 
@@ -38,10 +38,11 @@ You can run some bulk actions on all selected subscribers.
 
 Action | Info
 ---|---
-Delete | Deletes all selected subscribers.
+Delete | Deletes all selected subscribers but keep their activities by un-assigning the subscriber info.
+Delete (with Activities) | Deletes all selected subscribers including their activities.
 Send new Campaign | Send a new campaign to selected subscribers.
 Resend Confirmation | (Re)sends the confirmation message (for double opt in) if needed.
-Verify | Runs a verification on the selected subscribers. Helpful if you have implemented custom verifications.
+Verify | Runs a verification on the selected subscribers. Helpful if you have implemented custom verification.
 change status | Updates the status of the selected subscribers.
 add to list | Adds selected subscribers to chosen list.
 remove from list | Removes selected subscribers to chosen list.

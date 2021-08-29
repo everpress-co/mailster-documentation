@@ -16,6 +16,7 @@
 	- [Finished Campaigns](finished-campaigns.md)
 	- [Frontpage (web version)](frontpage.md)
 	- [Preheaders](preheaders.md)
+	- [Precheck](precheck.md)
 
 - Forms
 	- [Overview](forms-overview.md)
@@ -40,6 +41,7 @@
 	- [Template](settings-template.md)
 	- [Frontend](settings-frontend.md)
 	- [Privacy](settings-privacy.md)
+	- [Security](settings-security.md)
 	- [Subscribers](settings-subscribers.md)
 	- [WordPress Users](settings-wordpress-users.md)
 	- [Texts](settings-texts.md)

@@ -22,7 +22,7 @@ On this page you find following infos:
 
 <sub>\* if available</sub>
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers&ID=5995).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers&ID=5995).
 
 
 !> Mailster Subscribers are not WordPress users but can be connected to each other. [Read more](https://kb.mailster.co/wordpress-users-in-mailster/).

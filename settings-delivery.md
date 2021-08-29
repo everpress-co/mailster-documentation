@@ -1,10 +1,11 @@
 # Delivery Settings
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#delivery).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#delivery).
 
 Setting | Purpose
 --- | ---
-Number of mails sent | Define how many mails Mailster should sen in a single batch.
+Number of mails sent | Define how many mails Mailster should sens in a single batch. This value can get calculated automatically by Mailster.
+ESP Limits | Define the limits of your ESP here. This may get adjusted automatically depending on your email service provider.
 Time Frame | Define when Mailster will send regular campaigns.
 Split campaigns	| Send campaigns simultaneously instead of one after the other.
 Pause campaigns	| Pause campaigns if an error occurs.

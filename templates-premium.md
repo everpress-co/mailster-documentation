@@ -1,8 +1,8 @@
 # Premium Templates
 
-You can buy new premium template from various authors (including us, EverPress).
+You can find further premium template from various authors on the Templates page.
 
-Click on "More Templates" to reveal additional templates which work with Mailster.
+Click on the offered tabs to browser all available template for Mailster. You can also try to search for specific templates or authors.
 
 ![Premium Templates](assets/premium-templates.png)
 

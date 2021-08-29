@@ -2,7 +2,7 @@
 
 The campaign editor is the heart of Mailster an allows to quickly build your campaigns. You can also create Autoresponder as well Notification templates.
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/post-new.php?post_type=newsletter&template=mymail).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/post-new.php?post_type=newsletter&template=mymail).
 
 ![Campaign Editor](assets/campaign-editor.png)
 

@@ -2,7 +2,7 @@
 
 Mailster has **four** built in widgets you can use. Find them in the Appearance menu of your WordPress site.
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/widgets.php).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/widgets.php).
 
 ### Signup Widget
 

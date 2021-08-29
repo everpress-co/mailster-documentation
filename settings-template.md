@@ -2,7 +2,7 @@
 
 Template related settings are defined here.
 
-?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#template).
+?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#template).
 
 Setting | Purpose
 --- | ---
