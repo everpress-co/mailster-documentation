@@ -1,3 +1,25 @@
+### Version 3.0 (2021-09-01)
+
+* new: Test the Email Quality with the built in Pre-check Feature.
+* new: Tag you subscriber with Tags fro better segmentation.
+* new: Improved security with a dedicate security settings page.
+* new: Automatic batch size settings to calculate your optimal sending rate.
+* new: Option to create new campaigns on action hook based auto responders.
+* new: Updated add ons page to browse and install even more integrations.
+* new: Updated templates page now lists over 400 free and premium templates.
+* new: UI update with new icons based on SVG.
+* new: Auto click prevention to prevent bots auto clicking and messing up your stats.
+* new: Sending warmup if you send from a new IP address or domain.
+* improved: db handling by splitting the actions table into five separate ones.
+* improved: added primary keys to these tables: queue, subscriber_meta, subscriber_fields.
+* improved: calculation of user rating has been offloaded as it's often server intense.
+* improved: changes to tracking for the Apple Privacy Protection plans.
+* improved: change on the random handler for random posts.
+* added: new dynamic tag for button labels `{post_button:-1}`.
+* added: indexes to campaigns to distinguish if multiple ones are sent (like birthday greetings).
+* removed: auto update option to prefer native solution.
+* removed: deprecated `mymail` hooks and filters.
+
 ### Version 2.4.19 (2021-06-14)
 
 * fixed: Option bar is fixed after a certain scroll threshold again.
