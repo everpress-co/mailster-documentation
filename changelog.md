@@ -1,3 +1,14 @@
+### Version 3.0.1 (2021-09-20)
+
+* added: editing templates on the templates page is back
+* fixed: mergetags now work correctly in image URL field if fallback is present
+* fixed: draft campaigns can now get duplicated
+* fixed: install plugins on addon page is working
+* fixed: problem if PHPMailer is loaded in another plugin
+* fixed: installed templates were not access able when no required Mailster version was set
+* improved upgrade process from 2.4.x
+* smaller bug fixes
+
 ### Version 3.0 (2021-09-01)
 
 * new: Test the Email Quality with the built in Pre-check Feature.
