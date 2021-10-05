@@ -1,3 +1,12 @@
+### Version 3.0.2 (2021-10-05)
+
+* fixed: bulk options causes a subscriber query error.
+* fixed: duplicating forms throw an error.
+* fixed: some notifications missed template defined settings.
+* change: optional warmup has been extended to 60 days.
+* improved: database errors during cron tried to get fixed automatically.
+* added: reminder to enable auto updates after a Mailster update.
+
 ### Version 3.0.1 (2021-09-20)
 
 * added: editing templates on the templates page is back
