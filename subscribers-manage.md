@@ -6,7 +6,7 @@ With Mailster you can simple import and export your subscribers.
 
 On the Import page you can upload your CSV file or paste your contacts from your spreadsheet app into the textarea.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_manage_subscribers).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_manage_subscribers).
 
 ![Import Screen](assets/import-screen.png)
 
@@ -42,7 +42,7 @@ Some Autoresponders may require a signup date. If it's not defined in the import
 
 You can export all of your subscribers into a CSV or XLS (Excel) file.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_manage_subscribers&tab=export).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_manage_subscribers&tab=export).
 
 ![Export Subscribers](assets/export-subscribers.png)
 

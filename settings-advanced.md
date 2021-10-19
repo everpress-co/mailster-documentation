@@ -1,6 +1,6 @@
 # Advanced Settings
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#advanced).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#advanced).
 
 Some of these settings may affect your website. In normal circumstance it is not required to change anything on this page.
 

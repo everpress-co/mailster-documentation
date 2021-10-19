@@ -2,7 +2,7 @@
 
 Everything for the Frontend (web version) can be defined here.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#frontend).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_settings#frontend).
 
 | Setting                  | Purpose                                                                               |
 | ------------------------ | ------------------------------------------------------------------------------------- |

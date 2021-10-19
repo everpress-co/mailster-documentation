@@ -4,7 +4,7 @@ Mailster allow to manage all your subscribers inside your WordPress installation
 
 On the subscribers overview page you can find all your subscribers sorted by their status.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_subscribers).
 
 ![Subscribers Overview](assets/subscribers-overview.png)
 

@@ -2,7 +2,7 @@
 
 Auto responder in Mailster help you to automate your email marketing.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_status=autoresponder&post_type=newsletter).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_status=autoresponder&post_type=newsletter).
 
 ![Auto responder Overview](assets/autoresponder-overview.png)
 
@@ -52,6 +52,6 @@ Read more on our [knowledge base](https://kb.mailster.co/creating-a-series-in-ma
 
 This is how your Auto responder campaign can look like:
 
-?> You can test this campaign on our [demo](https://demo2.mailster.co/wp-admin/post.php?post=339&action=edit)
+?> You can test this campaign on our [demo](https://demo.mailster.co/wp-admin/post.php?post=339&action=edit)
 
 ![Example Campaign](assets/example-campaign.png)

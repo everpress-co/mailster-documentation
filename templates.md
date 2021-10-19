@@ -2,7 +2,7 @@
 
 Templates are an essential part of Mailster. They define the look and feel of your campaigns. You can find all installed templates at Newsletter => Templates.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_templates).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_templates).
 
 ![Templates Overview](assets/templates.png)
 

@@ -4,7 +4,7 @@ This page allow you to change the look of the form.
 
 !> Depending on you sites _style.css_ the form on your site may look different.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_forms&ID=1&tab=design).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_forms&ID=1&tab=design).
 
 ![Form Design](assets/form-design.png)
 

@@ -8,7 +8,7 @@ Each form in Mailster has form fields. By default you can add three fields to yo
 
 You can add additional fields if you have defined any [custom field](/custom-fields).
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_forms&ID=1).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/edit.php?post_type=newsletter&page=mailster_forms&ID=1).
 
 ![Form Fields](assets/form-fields.png)
 

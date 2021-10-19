@@ -2,7 +2,7 @@
 
 If you activate the plugin you have to create a new homepage for the newsletter. This page handles subscribes and unsubscriptions.
 
-?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/post.php?post=1&action=edit).
+?>Test this page on [our demo](https://demo.mailster.co/wp-admin/post.php?post=1&action=edit).
 
 !> This page must be linked on the settings page "Frontend".
 
