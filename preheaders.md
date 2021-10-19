@@ -6,6 +6,6 @@ Preheaders are small phrases (up to 80 letters) which should help increasing you
 
 ### Usefull resources
 
-- [The Ultimate Guide to Preview Text Support](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support)
-- [The Little-Known Preview Text Hack You May Want to Use in Every Email](https://litmus.com/blog/the-little-known-preview-text-hack-you-may-want-to-use-in-every-email)
-- [Tips for Coding Email Preheaders](https://www.emailonacid.com/blog/article/email-development/tips-for-coding-email-preheaders/)
+-   [The Ultimate Guide to Preview Text Support](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support)
+-   [The Little-Known Preview Text Hack You May Want to Use in Every Email](https://litmus.com/blog/the-little-known-preview-text-hack-you-may-want-to-use-in-every-email)
+-   [Tips for Coding Email Preheaders](https://www.emailonacid.com/blog/article/email-development/tips-for-coding-email-preheaders/)

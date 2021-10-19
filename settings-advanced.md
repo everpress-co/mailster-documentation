@@ -4,14 +4,14 @@
 
 Some of these settings may affect your website. In normal circumstance it is not required to change anything on this page.
 
-Setting | Purpose
---- | ---
-Usage Tracking | Enable usage tracking for your site. If you enable this option we are able to track the usage of Mailster on your site. We don't record any sensitive data but only information regarding the WordPress environment and plugin settings, which we use to make improvements to the plugin. Tracking is completely optional and can be disabled anytime.
-Cache | If enabled Mailster doesn't use cache anymore. This causes an increase in page load time! This option is not recommended!
-Short Codes | Enable this option to process shortcodes in your emails.
-Remove Data	| Mailster will remove all it's data if you delete the plugin via the plugin page.
-URL Rewrite	| Mailster detects if your site supports URL rewrite. This setting by default so change only if detection fails.
-Form POST protection | Use on internal forms. Check if you have a heavy cached page and problems with invalid Security Nonce.
-Legacy Hooks | Enable this option if your still use hooks or filters starting with `mymail_*`
+| Setting              | Purpose                                                                                                                                                                                                                                                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Usage Tracking       | Enable usage tracking for your site. If you enable this option we are able to track the usage of Mailster on your site. We don't record any sensitive data but only information regarding the WordPress environment and plugin settings, which we use to make improvements to the plugin. Tracking is completely optional and can be disabled anytime. |
+| Cache                | If enabled Mailster doesn't use cache anymore. This causes an increase in page load time! This option is not recommended!                                                                                                                                                                                                                              |
+| Short Codes          | Enable this option to process shortcodes in your emails.                                                                                                                                                                                                                                                                                               |
+| Remove Data          | Mailster will remove all it's data if you delete the plugin via the plugin page.                                                                                                                                                                                                                                                                       |
+| URL Rewrite          | Mailster detects if your site supports URL rewrite. This setting by default so change only if detection fails.                                                                                                                                                                                                                                         |
+| Form POST protection | Use on internal forms. Check if you have a heavy cached page and problems with invalid Security Nonce.                                                                                                                                                                                                                                                 |
+| Legacy Hooks         | Enable this option if your still use hooks or filters starting with `mymail_*`                                                                                                                                                                                                                                                                         |
 
 ![Advanced Settings Screen](/assets/settings-advanced.png)

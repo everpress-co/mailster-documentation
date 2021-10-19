@@ -6,7 +6,7 @@ The campaign editor is the heart of Mailster an allows to quickly build your cam
 
 ![Campaign Editor](assets/campaign-editor.png)
 
-Similar to Post in WordPress you create a new campaign by clicking on the *New Campaign* sub menu entry.
+Similar to Post in WordPress you create a new campaign by clicking on the _New Campaign_ sub menu entry.
 
 ## Campaign Title
 
@@ -28,15 +28,14 @@ Most templates are prepared for "Preheaders" texts. Please see [this section](/p
 
 With the option bar you can
 
- - undo/redo the last change of your template.
- - remove all modules from the template.
- - switch to codeview to edit the HTML source of your template.
- - switch to plain text view to edit the alternative text for email clients which do not support HTML.
- - preview the campaign.
- - enable "distraction free writing".
- - open the save dialog to create new template files based on you current one.
- - switch templates and template files.
-
+-   undo/redo the last change of your template.
+-   remove all modules from the template.
+-   switch to codeview to edit the HTML source of your template.
+-   switch to plain text view to edit the alternative text for email clients which do not support HTML.
+-   preview the campaign.
+-   enable "distraction free writing".
+-   open the save dialog to create new template files based on you current one.
+-   switch templates and template files.
 
 ### Adding Content
 
@@ -57,20 +56,25 @@ The modules in the module bar contain screenshots of the module. If you can only
 Depending on what you like to edit the editbar adobt the look.
 
 ##### PicPicker editbar
+
 If you click on an editable image the editbar will be a picpicker to choose an image from.
 
 ![Editbar](assets/editbar-picpicker.png)
 
 #### Automatic insertion
-Some modules offer an  button on the right side to insert whole posts including headline, content, button with link to the article and the feature images (if exists).
+
+Some modules offer an button on the right side to insert whole posts including headline, content, button with link to the article and the feature images (if exists).
 
 ![Automatic Insertation](assets/automatic-insertation.png)
 
-You can than insert either *static* or *dynamic* content.
+You can than insert either _static_ or _dynamic_ content.
 
 ##### Static editbar
+
 ![Editbar](assets/editbar-static.png)
+
 ##### Dynamic editbar
+
 ![Editbar](assets/editbar-dynamic.png)
 
 ## Delivery Options
@@ -78,6 +82,7 @@ You can than insert either *static* or *dynamic* content.
 The Delivery Meta Box is separated into two options: Regular Campaign and Auto responder.
 
 ### Regular Campaign
+
 A Regular Campaign is a campaign which get sent once to each subscriber. The receivers can get defined in the Receivers Meta Box.
 
 ![Regular Campaign](assets/delivery-regular.png ':size=300')
@@ -125,4 +130,5 @@ Either though Mailster uses the WordPress native auto save methods you should sa
 If you uncheck the web version checkbox you don't have a public version of you campaign. This is useful for content you only like to have in your email marketing.
 
 ### Password protected web version
+
 To protect the web version with a password simple add it to the given box. Users are forced to enter this password in order to see the web version.

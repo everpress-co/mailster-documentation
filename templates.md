@@ -35,5 +35,3 @@ You can now start a new campaign with your new template:
 Some templates - (including [ours from EverPress](https://1.envato.market/c/1244590/275988/4415?u=https://themeforest.net/user/everpress/portfolio)) - can be added to your site via the Envato API.
 
 [Read more about adding templates via the Envato API](/templates-premium?id=download-via-envato-api).
-
-

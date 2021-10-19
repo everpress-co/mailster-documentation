@@ -8,19 +8,19 @@ Auto responder in Mailster help you to automate your email marketing.
 
 With auto responders you can send campaigns to subscribers after a specific time and after a certain event. There are six types of auto responders available:
 
-- Subscriber based auto responder
-- Action based auto responder
-- Time based auto responder
-- User time based auto responder
-- Follow up auto responder
-- Action Hook based auto responder
+-   Subscriber based auto responder
+-   Action based auto responder
+-   Time based auto responder
+-   User time based auto responder
+-   Follow up auto responder
+-   Action Hook based auto responder
 
 ### Subscriber based Auto responder
 
 They are made to send messages to users on a specific action. These action can be
 
- - subscription
- - unsubscription
+-   subscription
+-   unsubscription
 
 Read more on our [knowledge base](https://kb.mailster.co/working-with-subscriber-based-auto-responders/).
 

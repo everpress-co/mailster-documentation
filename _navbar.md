@@ -1,3 +1,3 @@
-- [Mailster.co](https://mailster.co/)
-- [Knowledge Base](https://kb.mailster.co/)
-- [Support](https://mailster.co/support)
+-   [Mailster.co](https://mailster.co/)
+-   [Knowledge Base](https://kb.mailster.co/)
+-   [Support](https://mailster.co/support)

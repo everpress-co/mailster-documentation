@@ -14,13 +14,13 @@ Contains only a _mailster.zip_ file you can upload directly to your WordPress si
 
 To get this plugin working you have to follow these steps
 
-- extract the download zip (only if you downloaded the whole package).
-- log in to your WordPress site
-- goto "Plugins" => "Add new" => "Upload"
-- Select zip archive "mailster.zip"
-- Click "Upload" and wait until the file was uploaded and extracted.
-- Click "Activate Plugin"
-- Follow the setup Wizard
+-   extract the download zip (only if you downloaded the whole package).
+-   log in to your WordPress site
+-   goto "Plugins" => "Add new" => "Upload"
+-   Select zip archive "mailster.zip"
+-   Click "Upload" and wait until the file was uploaded and extracted.
+-   Click "Activate Plugin"
+-   Follow the setup Wizard
 
 ## Setup Wizard
 

@@ -1,4 +1,5 @@
 # Newsletter Homepage
+
 If you activate the plugin you have to create a new homepage for the newsletter. This page handles subscribes and unsubscriptions.
 
 ?>Test this page on [our demo](https://demo2.mailster.co/wp-admin/post.php?post=1&action=edit).
@@ -8,10 +9,12 @@ If you activate the plugin you have to create a new homepage for the newsletter.
 This is the content of this page:
 
 ```html
-[newsletter_signup]Signup for the newsletter[newsletter_signup_form id=1][/newsletter_signup]
-[newsletter_confirm]Thanks for your interest![/newsletter_confirm]
-[newsletter_unsubscribe]Do you really like to unsubscribe?[/newsletter_unsubscribe]
+[newsletter_signup]Signup for the newsletter[newsletter_signup_form
+id=1][/newsletter_signup] [newsletter_confirm]Thanks for your
+interest![/newsletter_confirm] [newsletter_unsubscribe]Do you really like to
+unsubscribe?[/newsletter_unsubscribe]
 ```
+
 There are four shortcode in use:
 
 **`[newsletter_signup]`**

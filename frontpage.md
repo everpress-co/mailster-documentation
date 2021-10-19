@@ -7,4 +7,3 @@ With the share button users can share the newsletter via different social media 
 ?>See this front page live on [our demo](https://demo2.mailster.co/newsletter/starting-soon/).
 
 ![Frontpage](assets/frontpage.png)
-

@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "docsify-cli": "^4.4.3"
-  }
+	"dependencies": {
+		"docsify-cli": "^4.4.3"
+	}
 }
