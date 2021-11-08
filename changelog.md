@@ -1,3 +1,12 @@
+### Version 3.0.4 (2021-11-08)
+
+-   fixed: saving template from editor messed up template header
+-   fixed: bulk deletion with actions working again
+-   fixed: auto responder no longer triggered if post is published in the past
+-   fixed: shortcodes are now handled properly on the web version
+-   added: text strings for error messages defined by the security settings page
+-   improved: ajax handler
+
 ### Version 3.0.3 (2021-10-19)
 
 -   fixed: timeframe settings spanning over midnight
