@@ -1,3 +1,11 @@
+### Version 3.1 (2022-01-12)
+
+-   new: Remove inactive Subscribers automatically
+-   new: Relative conditions for date fields
+-   new: filters in the subscriber overview
+-   updated: Manage Subscribers page
+-   fixed: add trailing space to preheaders to prevent unintentional line breaks in previews.
+
 ### Version 3.0.4 (2021-11-08)
 
 -   fixed: saving template from editor messed up template header

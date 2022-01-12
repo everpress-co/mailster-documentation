@@ -27,6 +27,12 @@ You can use some modifiers to limit the results of your search:
 
 !> Searches can be very time consuming especially with a large subscriber base!
 
+## Filter subscribers
+
+Next to the search function you can also filter your subscribers by applying conditions to them. Click on the "Filter" button on the top right of your subscribers overview page to reveal the filter modal.
+
+![Filter Modal](assets/filter-modal.png)
+
 ## Bulk Actions
 
 You can run some bulk actions on all selected subscribers.
