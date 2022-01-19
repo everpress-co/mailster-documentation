@@ -1,3 +1,13 @@
+### Version 3.1.1 (2022-01-19)
+
+-   fixed: time specific auto responders sent only on Sundays causes sending the following to be way in the future
+-   fixed: type in test bounce message
+-   fixed: typo in subscriber query causes database error
+-   fixed: PHP warning of undefined variable in option bar
+-   added: unsubscribe link to in mail app unsubscribe message
+-   added: filter `mailster_campaign_meta_defaults` to filter default meta values
+-   added: defined `wp_mail` filters are now applied if used with Mailster
+
 ### Version 3.1 (2022-01-12)
 
 -   new: Remove inactive Subscribers automatically
