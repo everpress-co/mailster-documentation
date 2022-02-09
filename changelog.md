@@ -1,3 +1,9 @@
+### Version 3.1.2 (2022-02-09)
+
+-   fixed: CSS for WP 5.9
+-   fixed: small typo in variable
+-   fixed: compatibility for PHP 5.6+
+
 ### Version 3.1.1 (2022-01-19)
 
 -   fixed: time specific auto responders sent only on Sundays causes sending the following to be way in the future
