@@ -18,6 +18,7 @@ Argument | Type | Description
 `$campaign_index` | `int` | The index of the campaign
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[439](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L439-L448)]<br>
+
 #### `mailster_open`
 
 ###### **Fires if user opens on a campaign and tracking is enabled**
@@ -31,5 +32,6 @@ Argument | Type | Description
 `$campaign_index` | `int` | The index of the campaign
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[454](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L454-L461)]<br>
+
 
 

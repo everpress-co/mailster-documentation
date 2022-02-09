@@ -14,6 +14,7 @@ Argument | Type | Description
 `$rules` | `array` | rewrite rules as assoc array
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[83](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L83-L88)]<br>
+
 #### `mailster_click_target`
 
 ###### **Filters the target of the clicked link of a campaign**
@@ -28,6 +29,7 @@ Argument | Type | Description
 `$campaign_index` | `int` | The index of the link
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[347](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L347-L355)]<br>
+
 #### `mailster_redirect_to`
 
 ###### **Filters the redirection target after clicking a link in a campaign**
@@ -42,6 +44,7 @@ Argument | Type | Description
 `$campaign_index` | `int` | The index of the link
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[479](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L479-L487)]<br>
+
 #### `mailster_confirm_target`
 
 ###### **Filters the redirection target after clicking a link in a campaign**
@@ -54,6 +57,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[651](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L651-L657)]<br>
+
 #### `mailster_cookie_time`
 
 ###### **Filters the lifetime of the Mailster cookie.**
@@ -67,6 +71,7 @@ Argument | Type | Description
 `$timeout` | `int` | timeout in seconds
 
 Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php)[[1092](https://github.com/evrpress/mailster/tree/master/./classes/frontpage.class.php#L1092-L1099)]<br>
+
 #### `mailster_subscriber_errors`
 
 ###### **Default subscriber errors where campaigns do not get paused or skipped**
@@ -84,6 +89,7 @@ Argument | Type | Description
 `$default` | `array` | default values
 
 Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php)[[142](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php#L142-L153)]<br>
+
 #### `mailster_server_errors`
 
 ###### **Default server errors where campaigns get paused or skipped**
@@ -98,6 +104,7 @@ Argument | Type | Description
 `$default` | `array` | default values
 
 Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php)[[158](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php#L158-L166)]<br>
+
 #### `mailster_system_errors`
 
 ###### **Default System errors where campaigns get paused or skipped**
@@ -112,6 +119,7 @@ Argument | Type | Description
 `$default` | `array` | default values
 
 Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php)[[171](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php#L171-L179)]<br>
+
 #### `mailster_inline_css`
 
 ###### **Filter to skip inline CSS**
@@ -123,6 +131,7 @@ Argument | Type | Description
 `$inline_css` | `bool` | Whenever to enable inline styles or not
 
 Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php)[[580](https://github.com/evrpress/mailster/tree/master/./classes/mail.class.php#L580-L585)]<br>
+
 #### `mailster_campaign_meta_defaults`
 
 ###### **Filter the default meta values of new campaigns**
@@ -164,6 +173,7 @@ Argument | Type | Description
 `$defaults` | `array` | the default values
 
 Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/tree/master/./classes/campaigns.class.php)[[2266](https://github.com/evrpress/mailster/tree/master/./classes/campaigns.class.php#L2266-L2301)]<br>
+
 #### `mailster_autoresponder_grace_period`
 
 ###### **Filter the grace period from campaigns to decide the time when user no longer get the campaign.**
@@ -193,6 +203,7 @@ Disable the grace period
 add_filter( 'mailster_autoresponder_grace_period', '__return_false' );
 ```
 Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/tree/master/./classes/queue.class.php)[[438](https://github.com/evrpress/mailster/tree/master/./classes/queue.class.php#L438-L446)]<br>
+
 #### `mailster_time_check_value`
 
 ###### **Seconds to prevent forms being submitted**
@@ -204,5 +215,6 @@ Argument | Type | Description
 `$time_in_seconds` | `int` | the time in seconds (default:4)
 
 Source: [./classes/form.class.php](https://github.com/evrpress/mailster/tree/master/./classes/form.class.php)[[985](https://github.com/evrpress/mailster/tree/master/./classes/form.class.php#L985-L990)]<br>
+
 
 
