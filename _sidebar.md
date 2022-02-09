@@ -61,4 +61,9 @@
     -   [Advanced](settings-advanced.md)
     -   [Manage Settings](settings-manage-settings.md)
 
+-   Hooks
+
+    -   [Actions](actions.md)
+    -   [Filters](filters.md)
+
 -   [Changelog](changelog)
