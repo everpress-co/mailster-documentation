@@ -1,3 +1,9 @@
+### Version 3.1.4 (2022-03-01)
+
+-   fixed: using single quotes in tags causes problems
+-   fixed: PHP warning on PHP 8.1
+-   improved: better handling of translations on plugin activation
+
 ### Version 3.1.2 (2022-02-09)
 
 -   fixed: CSS for WP 5.9
