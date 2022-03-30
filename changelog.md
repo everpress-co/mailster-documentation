@@ -1,8 +1,9 @@
-### Version 3.1.4 (2022-03-01)
+### Version 3.1.3 (2022-03-01)
 
--   fixed: using single quotes in tags causes problems
--   fixed: PHP warning on PHP 8.1
--   improved: better handling of translations on plugin activation
+-   fixed: default placeholder tags where not replaced on system mails
+-   fixed: security vulnerability where a logged in user can discover the profile URL from a different user. (discovered by D.Jong from patchstack.com)
+-   improved: ajax operations are now checked against capabilities
+-   improved: updated "Preheader text hack" from Litmus
 
 ### Version 3.1.2 (2022-02-09)
 
