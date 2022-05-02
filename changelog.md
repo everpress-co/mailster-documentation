@@ -1,3 +1,10 @@
+### Version 3.1.4 (2022-05-02)
+
+-   new: forms on frontend no longer requires jQuery
+-   fixed: using single quotes in tags causes problems
+-   fixed: PHP warning on PHP 8.1
+-   improved: better handling of translations on plugin activation
+
 ### Version 3.1.3 (2022-03-01)
 
 -   fixed: default placeholder tags where not replaced on system mails
