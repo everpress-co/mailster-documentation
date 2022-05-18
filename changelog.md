@@ -1,3 +1,7 @@
+### Version 3.1.4.1 (2022-05-18)
+
+-   fixed: issue with WooCommerce 6.5.1 and third party library
+
 ### Version 3.1.4 (2022-05-02)
 
 -   new: forms on frontend no longer requires jQuery
