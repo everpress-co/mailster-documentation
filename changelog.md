@@ -1,3 +1,10 @@
+### Version 3.1.5 (2022-06-16)
+
+-   new: growth rates on campaign overview
+-   opens, clicks, unsubscribes and bounces are now sortable
+-   minimum required PHP version is now 7.2.5
+-   reduced size of vendor folder
+
 ### Version 3.1.4.1 (2022-05-18)
 
 -   fixed: issue with WooCommerce 6.5.1 and third party library
