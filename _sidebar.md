@@ -12,10 +12,10 @@
 
 -   Campaigns
 
+    -   [Overview](campaign-overview.md)
     -   [Editor](editor.md)
     -   [Autoresponder](autoresponder.md)
     -   [Notifications](notifications.md)
-    -   [Campaign Status](campaign-status.md)
     -   [Finished Campaigns](finished-campaigns.md)
     -   [Frontpage (web version)](frontpage.md)
     -   [Preheaders](preheaders.md)
