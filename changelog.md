@@ -1,3 +1,10 @@
+### Version 3.1.6 (2022-07-25)
+
+-   added: option to change tracking of campaigns once the campaign has been finished
+-   improved: list counts are loaded now asynchronously to improve page load time
+-   improved: embedded images are now found outside the upload folder
+-   settings with "token" in the key are now hidden in the test email
+
 ### Version 3.1.5 (2022-06-16)
 
 -   new: growth rates on campaign overview
