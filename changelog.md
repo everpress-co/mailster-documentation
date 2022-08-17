@@ -1,3 +1,17 @@
+### 3.2.0 (2022-08-17)
+
+-   fixed: querying subscribers do no longer return subscribers with status deleted.
+-   fixed: adding an already deleted subscriber working as expected.
+-   fixed: wrong timestamp on signups if subscriber exists.
+-   improved: support for multiple campaigns triggered by action hooks.
+-   improved: removed skeleton loader on foreign columns in overview.
+-   improved: action hook campaigns support now multiple hooks, separated with a comma.
+-   improved: database updates now run in the background (optional).
+-   improved: taxonomies dropdown now uses select2 library to better handle large taxonomy entries.
+-   new defaults strings form confirmation message.
+-   confirmation page on newsletter homepage now wrapped with `wpautop`.
+-   new filters: `mailster_editor_tags` and `mailster_notification_content`.
+
 ### Version 3.1.6 (2022-07-25)
 
 -   added: option to change tracking of campaigns once the campaign has been finished
