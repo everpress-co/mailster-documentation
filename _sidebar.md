@@ -28,6 +28,14 @@
     -   [Design](form-design.md)
     -   [Settings](form-settings.md)
 
+-   Block Forms (BETA)
+
+    -   [Overview](block-forms-overview.md)
+    -   [Installing](block-forms-install.md)
+    -   [Get Started](block-forms-get-started.md)
+    -   [Options](block-forms-options.md)
+    -   [Placements](block-forms-placements.md)
+
 -   Other
 
     -   [Newsletter Homepage](newsletter-homepage.md)
