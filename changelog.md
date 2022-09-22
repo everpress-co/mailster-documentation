@@ -1,3 +1,13 @@
+### 3.2.1 (2022-09-22)
+
+-   fixed: issue where taxonomies in campaigns are not stored correctly.
+-   improved: `{unsub}` and `{profile}` tags can now be used in confirmation messages.
+-   added: message for block form plugin
+-   support for [Local Google Fonts](https://wordpress.org/plugins/local-google-fonts/)
+-   new filter: `mailster_do_placeholder` which filters the replaced content
+-   fixed: Jetpack no longer includes sharing button in content or excerpt
+-   fixed: some error notices on PHP 8.1
+
 ### 3.2.0 (2022-08-17)
 
 -   fixed: querying subscribers do no longer return subscribers with status deleted.
