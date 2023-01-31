@@ -1,3 +1,13 @@
+### 3.2.4 (2023-01-31)
+
+-   Do not show form occurrences from auto draft posts
+-   allow selection private post in the static editbar
+-   implemented feed item date checks
+-   improved handling of images in RSS feeds
+-   added new status upgrade status code
+-   remove any tinyMCE attributes from the content on campaign save
+-   use vanilla methods to change target on frontpage
+
 ### 3.2.3 (2022-12-07)
 
 -   fixed: E_ERROR on Geo location class in PHP 8.1
