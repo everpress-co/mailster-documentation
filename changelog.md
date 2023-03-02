@@ -1,4 +1,19 @@
-### 3.2.4 (2023-01-31)
+### Version 3.2.5 (2023-03-02)
+
+-   new: Admin header bar with new support integration.
+-   new: Help buttons located in the plugin to provide context-specific assistance
+-   changed: Mailster related notices only show up on Mailster related pages.
+-   fixed: campaign related conditions for "Any Campaign" now work as expected.
+-   fixed: restoring of deleted subscribers working again.
+-   fixed: issue where some subscribers are not able to get deleted/exported
+-   fixed: missing object error in mailster-script
+-   fixed: searching with quotes on the subscribers page working again
+-   fixed: broken RSS feed URL can cause timeouts
+-   fixed: force array when duplicating a campaign for `wp_insert_post`
+-   change: do not use the `$wp_filesystem` global when require filesystem
+-   added: `mailster_get_user_setting` and `mailster_set_user_setting`
+
+### Version 3.2.4 (2023-01-31)
 
 -   Do not show form occurrences from auto draft posts
 -   allow selection private post in the static editbar
@@ -8,7 +23,7 @@
 -   remove any tinyMCE attributes from the content on campaign save
 -   use vanilla methods to change target on frontpage
 
-### 3.2.3 (2022-12-07)
+### Version 3.2.3 (2022-12-07)
 
 -   fixed: E_ERROR on Geo location class in PHP 8.1
 -   added enhancement issue template
@@ -18,7 +33,7 @@
 -   standardize outgoing URLs
 -   tested up to 6.1
 
-### 3.2.2 (2022-11-01)
+### Version 3.2.2 (2022-11-01)
 
 -   added: native Advanced Custom Fields support.
 -   fixed: import of WordPress roles wasn't working in some cases.
@@ -27,7 +42,7 @@
 -   added: `X-Redirect-By` header on all Mailster related redirects.
 -   added: set the global post inside the template editor.
 
-### 3.2.1 (2022-09-22)
+### Version 3.2.1 (2022-09-22)
 
 -   fixed: issue where taxonomies in campaigns are not stored correctly.
 -   improved: `{unsub}` and `{profile}` tags can now be used in confirmation messages.
@@ -37,7 +52,7 @@
 -   fixed: Jetpack no longer includes sharing button in content or excerpt
 -   fixed: some error notices on PHP 8.1
 
-### 3.2.0 (2022-08-17)
+### Version 3.2.0 (2022-08-17)
 
 -   fixed: querying subscribers do no longer return subscribers with status deleted.
 -   fixed: adding an already deleted subscriber working as expected.
