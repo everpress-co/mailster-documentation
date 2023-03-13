@@ -1,8 +1,23 @@
+### Version 3.2.6 (2023-03-12)
+
+-   added: option to bulk add and remove from every list
+-   fixed condition on the subscribers over view
+-   fixed: PHP throws error if `str_replace` with a value below 0
+-   fixed: RSS feed missing modified date in some cases change: RSS feed extract images from content first
+-   fixed: issue when bulk confirm/add/delete subscribers from list
+-   fixed: missing slug on add plugins page
+-   improved: better sql query for growth calculation.
+-   improved: database cleanup mechanism
+-   improved: prevent caching on cron page
+-   improved: speed of delivery is now split into PHP processing and mail sending on the cron page
+-   improved: updated queue SQL to handle campaigns when split campaigns is enabled.
+-   tiny fixes and improvements
+
 ### Version 3.2.5 (2023-03-02)
 
 -   new: Admin header bar with new support integration.
 -   new: Help buttons located in the plugin to provide context-specific assistance
--   changed: Mailster related notices only show up on Mailster related pages.
+-   change: Mailster related notices only show up on Mailster related pages.
 -   fixed: campaign related conditions for "Any Campaign" now work as expected.
 -   fixed: restoring of deleted subscribers working again.
 -   fixed: issue where some subscribers are not able to get deleted/exported
@@ -18,15 +33,15 @@
 -   Do not show form occurrences from auto draft posts
 -   allow selection private post in the static editbar
 -   implemented feed item date checks
--   improved handling of images in RSS feeds
--   added new status upgrade status code
+-   improved: handling of images in RSS feeds
+-   added: new status upgrade status code
 -   remove any tinyMCE attributes from the content on campaign save
 -   use vanilla methods to change target on frontpage
 
 ### Version 3.2.3 (2022-12-07)
 
 -   fixed: E_ERROR on Geo location class in PHP 8.1
--   added enhancement issue template
+-   added: enhancement issue template
 -   check if option from queue has template element
 -   fixed: footer branding
 -   fixed: Uncaught TypeError: in notifications.class.php
@@ -48,7 +63,7 @@
 -   improved: `{unsub}` and `{profile}` tags can now be used in confirmation messages.
 -   added: message for block form plugin
 -   support for [Local Google Fonts](https://wordpress.org/plugins/local-google-fonts/)
--   new filter: `mailster_do_placeholder` which filters the replaced content
+-   new: filter: `mailster_do_placeholder` which filters the replaced content
 -   fixed: Jetpack no longer includes sharing button in content or excerpt
 -   fixed: some error notices on PHP 8.1
 
@@ -62,9 +77,9 @@
 -   improved: action hook campaigns support now multiple hooks, separated with a comma.
 -   improved: database updates now run in the background (optional).
 -   improved: taxonomies dropdown now uses select2 library to better handle large taxonomy entries.
--   new defaults strings form confirmation message.
+-   new: defaults strings form confirmation message.
 -   confirmation page on newsletter homepage now wrapped with `wpautop`.
--   new filters: `mailster_editor_tags` and `mailster_notification_content`.
+-   new: filters: `mailster_editor_tags` and `mailster_notification_content`.
 
 ### Version 3.1.6 (2022-07-25)
 
@@ -156,7 +171,7 @@
 -   fixed: install plugins on addon page is working
 -   fixed: problem if PHPMailer is loaded in another plugin
 -   fixed: installed templates were not access able when no required Mailster version was set
--   improved upgrade process from 2.4.x
+-   improved: upgrade process from 2.4.x
 -   smaller bug fixes
 
 ### Version 3.0 (2021-09-01)
@@ -336,7 +351,7 @@
 -   fixed: issue saving "send campaign only once" option
 -   fixed: duplication of finished campaign no longer breaks module selection
 -   improved: some fields are now stored urlencoded for better emoji support in databases with collation other than utf8mb4
--   changed: action hook auto responders no longer sent to all subscribers if subscriber id is set to `false` (use `null` instead)
+-   change: action hook auto responders no longer sent to all subscribers if subscriber id is set to `false` (use `null` instead)
 
 ### Version 2.4.4 (2019-09-09)
 
@@ -351,7 +366,7 @@
 -   fixed: wrong subscriber count if status "pending" in subscriber query.
 -   fixed: cumulative count calculations.
 -   fixed: redirecting issue with spaces in URLs.
--   updated to latest coding standards
+-   updated: to latest coding standards
 -   code refactoring
 
 ### Version 2.4.3 (2019-07-31)
@@ -405,7 +420,7 @@
 
 ### Version 2.3.18 (2019-04-16)
 
--   updated included template
+-   updated: included template
 -   added: option to use TLS on bounce servers
 -   fixed: missing module buttons after code edit.
 -   fixed: priority order in queue.
@@ -559,7 +574,7 @@
 ### Version 2.3.6 (2018-05-14)
 
 -   new: Location based Segmentations
--   new filter: `mailster_form_field_label_[field_id]` to alter the label of form fields
+-   new: filter: `mailster_form_field_label_[field_id]` to alter the label of form fields
 -   improved: simplified location based tracking with auto update
 -   improved: Export page now offers conditional export and saves defined settings.
 -   improved: Delete page now offers conditional deletion.
@@ -635,7 +650,7 @@
 -   change: `mailster_replace_link` now targets the output link
 -   improved: list segmentation
 -   improved: campaign editor for faster campaign creation with inline editing
--   Improved: modules with tags where the post not exists will get removed
+-   improved: modules with tags where the post not exists will get removed
 -   improved: image procession to support more third party plugins
 -   improved: info message on form submission now placed on after the form depending on scroll position.
 -   improved: background images behavior in editor
@@ -762,7 +777,7 @@
 -   added: `mailster_get_signups_sql`, `mailster_queue_campaign_subscriber_data` filters
 -   added: `mailster_cookie_time` filter to adjust Mailster cookie expiration time
 -   added: `mailster_get_current_user` and `mailster_get_current_user_id` methods
--   changed: `mailster_unsubscribe_link` hook position and added campaign_id to arguments
+-   change: `mailster_unsubscribe_link` hook position and added campaign_id to arguments
 
 ### Version 2.2.7 (2017-06-14)
 
@@ -818,8 +833,8 @@
 -   fixed: smaller bugs
 -   updated: order by “Clicks” is now “Click Date” in recipients details view
 -   improved: all widgets are now wrapped by a div with class “mailster-widget” for better targeting
--   new option to get subscribers by md5 hash
--   new “mailster_subscriber_hash” filter to change subscriber hash
+-   new: option to get subscribers by md5 hash
+-   new: “mailster_subscriber_hash” filter to change subscriber hash
 -   improved: added various filters to list and subscribers view
 -   improved: support of arrays in auto post tag filter
 -   improved: allowing anonymous functions in `mailster_add_tag`
@@ -872,7 +887,7 @@
 -   new: a screenshot.jpg file can now be used for the screenshot in templates folder
 -   new: Manage Settings to export and import your settings
 -   new: receivers email address now contains full name of subscribers
--   new tag: `author`. usage `{post_author:-1}`
+-   new: tag: `author`. usage `{post_author:-1}`
 -   new: Subscriber Button Widget
 -   new: share service VK.com, Telegram, Whatsapp
 -   new: localization hub: translate.mailster.co
@@ -1030,18 +1045,18 @@
 
 -   applied WordPress Coding Standards to all files. Change class names from underscore_case to CamelCase
 -   moved settings tabs into dedicated files for better maintainability
--   new filters: for getting static posts in the editbar: `mymail_auto_post`
--   new filters: for getting static rss in the editbar: `mymail_auto_rss`
+-   new: filters: for getting static posts in the editbar: `mymail_auto_post`
+-   new: filters: for getting static rss in the editbar: `mymail_auto_rss`
 -   fixed: JS verification for emails on subscriber details page for “new” emails
 -   fixed: removing fields on form page was broken on FireFox
 
 ### Version 2.1.16 (2016-06-22)
 
--   new feature: post thumbnails for campaigns
--   new feature: auto generated screenshots for campaigns
--   new feature: webversion now offers oembed support
--   new feature: open graph meta data on webversion
--   new share service: Buffer
+-   new: feature: post thumbnails for campaigns
+-   new: feature: auto generated screenshots for campaigns
+-   new: feature: webversion now offers oembed support
+-   new: feature: open graph meta data on webversion
+-   new: share service: Buffer
 -   fixed: password input field
 -   updated: templates previews
 -   improved: loading of GEO database files
@@ -1106,7 +1121,7 @@
 ### Version 2.1.8 (2016-02-22)
 
 -   improved: template editing on the templates page
--   changed: test emails on campaign overview are now sent independently if more emails where added.
+-   change: test emails on campaign overview are now sent independently if more emails where added.
 -   fixed: unsubscribe button missing if single sign out is enabled
 -   fixed: wrong links to assets
 -   fixed: issue with background images not changed probably in some browsers
@@ -1218,7 +1233,7 @@
 ### Version 2.0.31 (2015-12-22)
 
 -   update: update class
--   added info for MyMail 2.1 beta
+-   added: info for MyMail 2.1 beta
 
 ### Version 2.0.30 (2015-11-20)
 
@@ -1246,7 +1261,7 @@
 ### Version 2.0.28 (2015-09-19)
 
 -   fixed: plaintext view was visible on active camapings in WP 4.3
--   added notice for users with PHP version < 5.3
+-   added: notice for users with PHP version < 5.3
 
 ### Version 2.0.27 (2015-08-31)
 
@@ -1444,7 +1459,7 @@
 -   fixed: import progress no longer breaks on duplicate subscribers in some cases
 -   fixed: confirmation uses the base template in rare cases
 -   fixed: all images are now served via https if page is on a secure connection
--   improved update progress
+-   improved: update progress
 
 ### Version 2.0.11 (2014-10-11)
 
@@ -1536,7 +1551,7 @@
 
 ### Version 2.0 (2014-09-24)
 
--   new database structure
+-   new: database structure
 -   action hook based autoresponder
 -   user date based autoresponder (birthday greetings)
 -   follow up autoresponder
@@ -1553,9 +1568,9 @@
 ### Version 1.6.6 (2014-04-07)
 
 -   you can now use post meta values in tags with {post_meta[meta_key]:XX}
--   added fix for html mails if used with MyMail
+-   added: fix for html mails if used with MyMail
 -   fixed a bug with double labels on checkboxes
--   added mymail-list class to ul tags in forms
+-   added: mymail-list class to ul tags in forms
 -   ajax forms have now mymail-ajax-form class
 -   fixed a bug where form redirects to wrong location after confirmation
 -   fixed a bug where the settings page doesn’t get loaded caused by a corrupt geo db
@@ -1573,10 +1588,10 @@
 
 ### Version 1.6.5.2
 
--   added bulk deletion of pending subscribers
--   added better handling for background images
+-   added: bulk deletion of pending subscribers
+-   added: better handling for background images
 -   HTML conditional comments are now preserved (required for Outlook hacks)
--   improved update class
+-   improved: update class
 -   fixed title shows {subject} in the web version
 -   fixed some flickering on the edit screen with certain templates
 -   fixed some minor bugs
@@ -1590,8 +1605,8 @@
 ### Version 1.6.5 (2014-01-24)
 
 -   double-opt-in options are now form related
--   new subscribers get form and page they subscribed from
--   new language: Persian
+-   new: subscribers get form and page they subscribed from
+-   new: language: Persian
 -   fixed bugs with wrong content urls or urls located outside of the WordPress directory
 -   fixed some bugs with rtl languages
 -   fixed some minor bugs
@@ -1600,9 +1615,9 @@
 
 -   fixed problem with some characters in images
 -   fixed problem with google plus URLs in autoresponders
--   added video and audio tags in whitelist
+-   added: video and audio tags in whitelist
 -   better geo db handling
--   improved cron for more server types
+-   improved: cron for more server types
 -   option to select all capabilities at once per role
 -   fixed some spelling mistakes
 -   small bug fixes
@@ -1618,18 +1633,18 @@
 ### Version 1.6.4 (2013-12-11)
 
 -   fully tested with WordPress 3.8 RC2
--   new icons for WordPress 3.8
--   new edit icons
--   new archive function – display newsletters like post in an archive
+-   new: icons for WordPress 3.8
+-   new: edit icons
+-   new: archive function – display newsletters like post in an archive
 -   reset button in settings
 -   switched geo db location
 -   suppress some warnings in invalid html templates
 -   importing WP users now respects defined roles
 -   placholder images now work with missing GD library
--   added area an map tags in the whitelist
+-   added: area an map tags in the whitelist
 -   manually uploads of geo db now works correctly
--   fixed – user registration now works on custom registration pages
--   fixed – bug when user subscribes and merge lists was active
+-   fixed: user registration now works on custom registration pages
+-   fixed: bug when user subscribes and merge lists was active
 -   lot of small bug fixes
 
 ### Version 1.6.3.2
@@ -1643,14 +1658,14 @@
 
 ### Version 1.6.3 (2013-11-09)
 
--   improved bounce handling
+-   improved: bounce handling
 -   support for soft bounces
 -   redesigned settings page
 -   MyMail now respects `WP_CONTENT_DIR` and `WP_CONTENT_URL` if they are defined in the wp-config.php
 -   bug fix on frontpage with forwarding newsletters via email autosave fixes in WP 3.7+
 -   able to use WP native local storage backup (WP 3.7+)
 -   bugfix on dynamic images with wrong height calculation
--   updated inline style class
+-   updated: inline style class
 -   all external data get now served from bitbucket (was dropbox)
 -   fix bug were some “Â” show up in some clients in certain emails
 -   fixed some Strict Standards bugs (WP 3.7+)
@@ -1658,7 +1673,7 @@
 -   embedded images are of by default now
 -   fixed bug in update class with multiple plugins
 -   fixed bug with custom background iamges in the editor
--   updated language files
+-   updated: language files
 -   works now with the [MyMail Mandrill Integration](http://wordpress.org/plugins/mymail-mandrill-integration/) Plugin
 -   lot of small bug fixes
 
@@ -1677,8 +1692,8 @@
 ### Version 1.6.2 (2013-10-11)
 
 -   you can now drag modules within the editor to rearrange them
--   updated phpMailer to 5.2.7 ([changelog](https://github.com/PHPMailer/PHPMailer/blob/master/changelog.md))
--   added port check for SMTP connections
+-   updated: phpMailer to 5.2.7 ([changelog](https://github.com/PHPMailer/PHPMailer/blob/master/changelog.md))
+-   added: port check for SMTP connections
 -   custom tags now get campaign ID and subscriber ID if available
 -   custom tags no longer get replaced by their content on finished campaigns
 -   user values get only overwritten if defined
@@ -1697,7 +1712,7 @@
 
 ### Version 1.6.0 (2013-09-12)
 
--   new template language
+-   new: template language
 -   included template updated to 3.0 with new template language
 -   new: included foreign RSS feed in your campaign
 -   new: text buttons
@@ -1720,18 +1735,18 @@
 ### Version 1.5.8 (2013-08-09)
 
 -   new: segmentation based on user values
--   new shortcode: `[newsletter_list]` (display the latest newsletters in as a list)
+-   new: shortcode: `[newsletter_list]` (display the latest newsletters in as a list)
 -   change: {post_date}, {post_modified} now displays only the date. use {post_time}, {post_modified_time} to display only the time
--   added new option for creating list after campaign (1.5.7): “who has not received”
--   added option to label submit button for each form
+-   added: new option for creating list after campaign (1.5.7): “who has not received”
+-   added: option to label submit button for each form
 -   subscribers notification now contains a google map if available
--   added option to filter receivers in finished campaigns
--   updated minicolors plugin to version 2.0
+-   added: option to filter receivers in finished campaigns
+-   updated: minicolors plugin to version 2.0
 -   renamed metabox “Lists” to “Receivers”
 -   tags now work correctly within links
 -   retina ready avatars for subscribers
 -   fixed wrong redirections
--   updated easy pie charts
+-   updated: easy pie charts
 -   fixed bug in Polish translation (was Spanish)
 
 ### Version 1.5.7.1
@@ -1748,10 +1763,10 @@
     -   who has not opened
 -   search for subscribers now includes custom field values
 -   optimized cronjob to use less memory
--   updated languages
--   added user information to subscriber mail
--   new avatars for unknown subscribers
--   updated easy piechart plugin
+-   updated: languages
+-   added: user information to subscriber mail
+-   new: avatars for unknown subscribers
+-   updated: easy piechart plugin
 -   option to bulk convert subscribers with status “error” back to “subscribed”
 -   fixed bug where categories doesn’t get saved on autoresponders
 -   fixed google plus share link
@@ -1771,19 +1786,19 @@
 ### Version 1.5.5.1
 
 -   fixed bugs for confirmation messages
--   updated update class
+-   updated: update class
 
 ### Version 1.5.5 (2013-06-27)
 
--   new option to check Spam score (beta)
+-   new: option to check Spam score (beta)
 -   option to get notified about new subscribers
--   new language: Portuguese (Brazil)
--   added `{post_author_name}`, `{post_author_email}`,`{post_author_url}`, `{post_author_nicename}` dynamic tags
+-   new: language: Portuguese (Brazil)
+-   added: `{post_author_name}`, `{post_author_email}`,`{post_author_url}`, `{post_author_nicename}` dynamic tags
 -   `{post_excerpt}` now uses [wp_trim_words()](http://codex.wordpress.org/Function_Reference/wp_trim_words) on the content if no excerpt is set
 -   changed pie charts to [easy-piecharts](https://github.com/rendro/easy-pie-chart)
 -   removed isNotSpam option
--   added option to reset limits
--   added option to change language of texts if available
+-   added: option to reset limits
+-   added: option to change language of texts if available
 -   fixed a bug on network activation
 -   fixed error on to many fallback images on the settings page
 
@@ -1793,21 +1808,21 @@
 
 ### Version 1.5.4 (2013-06-06)
 
--   new – time base autoresponder
+-   new: time base autoresponder
 -   option to change charset and encoding
 -   optimized translations
--   added – forms now get a “loading” classes if the form is progressing
--   added – option to define the label of each field of every form
+-   added: forms now get a “loading” classes if the form is progressing
+-   added: option to define the label of each field of every form
 -   option to hide the asterisk of required fields in forms
--   fixed – form throws error if custom function doesn’t return a value
--   fixed – issue with the stats on the dashboard widget
+-   fixed: form throws error if custom function doesn’t return a value
+-   fixed: issue with the stats on the dashboard widget
 
 ### Version 1.5.3.2
 
--   new function “mymail_get_subscriber”
--   added option to embed form css
--   fixed – some not latin characters in url prevent redirections
--   fixed – alt text of buttons didn’t show up in the editbar
+-   new: function “mymail_get_subscriber”
+-   added: option to embed form css
+-   fixed: some not latin characters in url prevent redirections
+-   fixed: alt text of buttons didn’t show up in the editbar
 
 ### Version 1.5.3.1
 
@@ -1816,16 +1831,16 @@
 ### Version 1.5.3 (2013-05-17)
 
 -   auto responder now have full statistics
--   added – convert single line texts to images with a click
--   improved update class for better performance
--   updated some geo location files
--   fixed – spelling issue in text after widget
+-   added: convert single line texts to images with a click
+-   improved: update class for better performance
+-   updated: some geo location files
+-   fixed: spelling issue in text after widget
 -   small bug fixes
 
 ### Version 1.5.2 (2013-05-06)
 
 -   prepared for an upcoming plugin – stay tuned!
--   new Twitter integration for Twitter API 1.1 – requires access credentials
+-   new: Twitter integration for Twitter API 1.1 – requires access credentials
 -   bug fixes
 
 ### Version 1.5.1.2
@@ -1850,10 +1865,10 @@
 
 -   works now on network sites
 -   better import for WordPress users
--   added – option to merge imported contacts with existing ones
--   added – bounce server test
--   added – import WordPress users via Manage subscribers page
--   removed – auto import of WordPress User on plugin activation
+-   added: option to merge imported contacts with existing ones
+-   added: bounce server test
+-   added: import WordPress users via Manage subscribers page
+-   removed: auto import of WordPress User on plugin activation
 -   option to define notification template for forms
 -   option to update geo database
 -   option to upload custom geo database
@@ -1861,49 +1876,49 @@
 
 ### Version 1.4.1 (2013-03-12)
 
--   added – allow users to sign up on new comment
--   added – allow users to sign up on register
--   added subscribers avatar to subscribers list
--   updated PHPMailer to verison 5.2.4
+-   added: allow users to sign up on new comment
+-   added: allow users to sign up on register
+-   added: subscribers avatar to subscribers list
+-   updated: PHPMailer to verison 5.2.4
 -   option to add vCard to confirmation mails
 -   send test to multiple receivers with comma separated list
--   new text “Newslettersignup”
+-   new: text “Newslettersignup”
 -   bug fixes
 
 ### Version 1.4.0 (2013-03-01)
 
 -   **Please finish all campaigns before update or you may have wrong stats in running campaigns!**
--   NEW dynamic post tags
--   NEW automatically send your latest post, pages or custom post types to your subscribers with auto responders
--   updated templates
--   new improved stats on the campaign detail page for each subscriber with opens and clicks
--   added – better mobile preview
--   added – insert image from URL
--   added – HTML as output form on the export tab
--   added – option to duplicate modules
--   improved sending queue – now uses up to 60% less resources
--   improved cron window with more info
--   fixed – problems when importing and exporting with some special characters
--   fixed – campaign stopped if subscriber caused the error
--   fixed – some CSS issues in gecko browsers
+-   new: dynamic post tags
+-   new: automatically send your latest post, pages or custom post types to your subscribers with auto responders
+-   updated: templates
+-   new: improved stats on the campaign detail page for each subscriber with opens and clicks
+-   added: better mobile preview
+-   added: insert image from URL
+-   added: HTML as output form on the export tab
+-   added: option to duplicate modules
+-   improved: sending queue – now uses up to 60% less resources
+-   improved: cron window with more info
+-   fixed: problems when importing and exporting with some special characters
+-   fixed: campaign stopped if subscriber caused the error
+-   fixed: some CSS issues in gecko browsers
 -   if you have [premium templates](http://rxa.li/mymailtemplates) check them for updates!
 
 ### Version 1.3.6 (2013-02-04)
 
--   updated included template to version 2.0:
+-   updated: included template to version 2.0:
 -   responsive
--   added more social icons
--   updated section for editbar: buttons
--   added – welcome page
--   removed – my first campaign
--   added – option for merge lists via settings
+-   added: more social icons
+-   updated: section for editbar: buttons
+-   added: welcome page
+-   removed: my first campaign
+-   added: option for merge lists via settings
 
 ### Version 1.3.5 (2013-01-24)
 
--   added – HTML form embedding
--   added – redirect after submit to any URL
--   added – checkboxes for custom tags
--   updated language. now available in:
+-   added: HTML form embedding
+-   added: redirect after submit to any URL
+-   added: checkboxes for custom tags
+-   updated: language. now available in:
     -   German
     -   English
     -   French
@@ -1913,23 +1928,23 @@
 
 ### Version 1.3.4 (2013-01-10)
 
--   added – pending tab in manage subscribers for unconfirmed users
+-   added: pending tab in manage subscribers for unconfirmed users
 -   templates are now located in the upload directory
--   added – option to uses a custom country/city database
--   added – option to resend confirmation notice after a defined time
--   fixed – confirmation mails doesn’t effect limits
+-   added: option to uses a custom country/city database
+-   added: option to resend confirmation notice after a defined time
+-   fixed: confirmation mails doesn’t effect limits
 
 ### Version 1.3.3 (2012-12-31)
 
 -   Completely rewritten subscriber management with improved upload, export and bulk deletion
--   removed – old import/export section
--   added – new capability ‘manage subscribers’ to give access to the new page
--   added – option to pre-fill known user data in forms if user is logged in
--   added – forms in widgets now have a ‘mymail-in-widget’ class
--   added – optional text before and after the form in widgets
+-   removed: old import/export section
+-   added: new capability ‘manage subscribers’ to give access to the new page
+-   added: option to pre-fill known user data in forms if user is logged in
+-   added: forms in widgets now have a ‘mymail-in-widget’ class
+-   added: optional text before and after the form in widgets
 -   performance improvements
 -   small bug fixes
--   fixed – inline labels are not visible in IE&gt;
+-   fixed: inline labels are not visible in IE&gt;
 
 ### Version 1.3.2.4
 
@@ -1950,31 +1965,31 @@
 ### Version 1.3.2 (2012-12-19)
 
 -   **Please finish all campaigns before update!**
--   added – support for the new Media uploader in WP 3.5
--   improved Editbar:
+-   added: support for the new Media uploader in WP 3.5
+-   improved: Editbar:
     -   better preview of posts, images and link
     -   links includes now all other pages too
     -   double click on the element you like to edit
     -   double click on an image in the editbar to insert it instantly
 -   campaigns now get paused if an error occurs during sending
--   fixed – subscribers falsely get marked as “error”
--   fixed – missing HTML tab in the editbar
--   fixed – geoip.inc conflicts
--   fixed – autoresponder not triggered if duplicated
+-   fixed: subscribers falsely get marked as “error”
+-   fixed: missing HTML tab in the editbar
+-   fixed: geoip.inc conflicts
+-   fixed: autoresponder not triggered if duplicated
 -   a lot of bug fixes and performance improvements
 
 ### Version 1.3.1.3
 
--   fixed – autoresponder get sent twice in some cases
+-   fixed: autoresponder get sent twice in some cases
 
 ### Version 1.3.1.2
 
--   fixed – send problems in some cases
+-   fixed: send problems in some cases
 
 ### Version 1.3.1.1
 
 -   fixed a small bug
--   added mymail_subscribe and mymail_unusbscribe functions
+-   added: mymail_subscribe and mymail_unusbscribe functions
 
 ### Version 1.3.1 (2012-12-12)
 
@@ -1982,79 +1997,79 @@
 -   Better SPF help
 -   Fully tested in WordPress 3.5
 -   optimized delivery method page
--   added – option to enable pagination on frontpage
--   added – bulk delete of subscribers
--   added – track subscribers IP and signup time (optional)
--   added – SSL support for bounce mail server (POP3)
--   added – “List-Unsubscribe” header with link to unsubscribe page
--   added – Gmail delivery method
--   added – optional delay between mails in campaigns
--   fixed – empty Form CSS now prevents enqueuing form CSS
--   fixed – required asterix always show up for names
--   fixed – links didn’t work in some cases in Outlook 2007
+-   added: option to enable pagination on frontpage
+-   added: bulk delete of subscribers
+-   added: track subscribers IP and signup time (optional)
+-   added: SSL support for bounce mail server (POP3)
+-   added: “List-Unsubscribe” header with link to unsubscribe page
+-   added: Gmail delivery method
+-   added: optional delay between mails in campaigns
+-   fixed: empty Form CSS now prevents enqueuing form CSS
+-   fixed: required asterix always show up for names
+-   fixed: links didn’t work in some cases in Outlook 2007
 -   many bug fixes
 
 ### Version 1.3.0 (2012-11-27)
 
 -   Track vistors cities
--   added – {forwad} tag to allow forwarding your newsletter
--   added – inline label for forms (optional)
+-   added: {forwad} tag to allow forwarding your newsletter
+-   added: inline label for forms (optional)
 -   images from custom templates in the template directory are now saved with relative path
--   added – better feedback for saving templates on the templates page
--   fixed – invalid emails are getting imported
--   fixed – images are always embedded in notification mails
+-   added: better feedback for saving templates on the templates page
+-   fixed: invalid emails are getting imported
+-   fixed: images are always embedded in notification mails
 
 ### Version 1.2.2.1
 
--   fixed – headers are not set in some cases
+-   fixed: headers are not set in some cases
 
 ### Version 1.2.2 (2012-11-15)
 
 -   MyMail Template updated to 1.3
--   added – embed your form on another site
--   added – new capability “manage capabilities”
--   added – campaigns now sortable by status
--   fixed – Auto responder not sent if limit reached
--   fixed – more loadHTML issues
+-   added: embed your form on another site
+-   added: new capability “manage capabilities”
+-   added: campaigns now sortable by status
+-   fixed: Auto responder not sent if limit reached
+-   fixed: more loadHTML issues
 -   small bug fixes and performance improvements
 
 ### Version 1.2.1.4
 
--   fixed – loadHTML error in some cases
--   fixed – HTML editor not available in some cases
--   fixed – HTML doesn’t get changed on Firefox in some cases
+-   fixed: loadHTML error in some cases
+-   fixed: HTML editor not available in some cases
+-   fixed: HTML doesn’t get changed on Firefox in some cases
 
 ### Version 1.2.1.3
 
--   fixed – small bug in Javascript
+-   fixed: small bug in Javascript
 
 ### Version 1.2.1.2
 
--   added – auto responders now get send on bulk import too
--   updated form CSS to better match twenty eleven and twenty twelve theme
--   fixed – editor doesn’t close if tinymce is disabled
+-   added: auto responders now get send on bulk import too
+-   updated: form CSS to better match twenty eleven and twenty twelve theme
+-   fixed: editor doesn’t close if tinymce is disabled
 
 ### Version 1.2.1.1
 
--   fixed – auto responders get send again after update
+-   fixed: auto responders get send again after update
 
 ### Version 1.2.1 (2012-10-18)
 
--   added – better support for custom templates
--   added – new option: email limit for a certain period
+-   added: better support for custom templates
+-   added: new option: email limit for a certain period
 -   better forms now works with JS disabled
 -   prefix for import and template page
--   improved post and image list
+-   improved: post and image list
 -   localized number formatting
--   fixed – some “Call time passed by reference errors”
--   fixed – bug in wp_mail
--   fixed – bulk import with “wrong” line breaks
--   fixed – auto responders can get activated without permission
+-   fixed: some “Call time passed by reference errors”
+-   fixed: bug in wp_mail
+-   fixed: bulk import with “wrong” line breaks
+-   fixed: auto responders can get activated without permission
 -   small bug fixes
 
 ### Version 1.2.0 (2012-10-15)
 
--   new – auto responders
+-   new: auto responders
 -   webversion link now working in test mails
 -   Dashboard widget settings removed – now only through capabilities
 -   List descriptions are now included in the form
@@ -2063,7 +2078,7 @@
 
 ### Version 1.1.1.1 (2012-10-09)
 
--   fixed – problems with form CSS
+-   fixed: problems with form CSS
 
 ### Version 1.1.1 (2012-10-09)
 
@@ -2071,19 +2086,19 @@
 -   better custom color handling for templates
 -   active campaigns are not editable anymore (must be paused)
 -   campaign statistics for active campaigns
--   added – texts tab, better text management in settings page
--   fixed – Bulk import breaks in some cases
--   fixed – wrong click count if cron was running
+-   added: texts tab, better text management in settings page
+-   fixed: Bulk import breaks in some cases
+-   fixed: wrong click count if cron was running
 
 ### Version 1.1.0 (2012-10-04)
 
--   new – capabilities
--   new – Bulk Import for large subscriber lists
+-   new: capabilities
+-   new: Bulk Import for large subscriber lists
 -   performance improvements
 -   lists in forms now optional drop downs
 -   change value of “First Name”, “Last Name” via settings panel
--   improved custom fields with support for textfields, drop downs or radio buttons
--   fixed – scroll down to the bottom on frontpage not possible
+-   improved: custom fields with support for textfields, drop downs or radio buttons
+-   fixed: scroll down to the bottom on frontpage not possible
 
 ### Version 1.0.1 (2012-09-24)
 
