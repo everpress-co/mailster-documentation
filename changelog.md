@@ -1,7 +1,14 @@
-### Version 3.2.6 (2023-03-12)
+### Version 3.3.0 (2023-03-15)
+
+-   new: [Action Required] license provider - please follow the guide to migrate your license
+-   new: Email logs. You can now enable logging for all outgoing mails sent by Mailster
+-   new: option to use OpenStreetMap as an alternative for Google Maps
+-   new: emoji picker in campaign editor
+
+### Version 3.2.6 (2023-03-13)
 
 -   added: option to bulk add and remove from every list
--   fixed condition on the subscribers over view
+-   fixed: condition on the subscribers over view
 -   fixed: PHP throws error if `str_replace` with a value below 0
 -   fixed: RSS feed missing modified date in some cases change: RSS feed extract images from content first
 -   fixed: issue when bulk confirm/add/delete subscribers from list
@@ -11,7 +18,6 @@
 -   improved: prevent caching on cron page
 -   improved: speed of delivery is now split into PHP processing and mail sending on the cron page
 -   improved: updated queue SQL to handle campaigns when split campaigns is enabled.
--   tiny fixes and improvements
 
 ### Version 3.2.5 (2023-03-02)
 
