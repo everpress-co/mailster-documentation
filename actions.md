@@ -19,7 +19,7 @@ Argument | Type | Description
 `$index` | `int` | The index of the link
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[433](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L433-L442)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[433](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L433-L442)]<br>
 
 <hr>
 
@@ -35,7 +35,7 @@ Argument | Type | Description
 `$campaign_id` | `int` | Form The ID of the campaign
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[446](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L446-L453)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[446](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L446-L453)]<br>
 
 <hr>
 
@@ -49,7 +49,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[631](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L631-L636)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[631](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L631-L636)]<br>
 
 
 

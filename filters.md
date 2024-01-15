@@ -15,7 +15,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$rules` | `array` | rewrite rules as assoc array
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[81](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L81-L86)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[81](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L81-L86)]<br>
 
 <hr>
 
@@ -32,7 +32,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[341](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L341-L349)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[341](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L341-L349)]<br>
 
 <hr>
 
@@ -49,7 +49,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[470](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L470-L478)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[470](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L470-L478)]<br>
 
 <hr>
 
@@ -64,7 +64,7 @@ Argument | Type | Description
 `$target` | `string` | The redirect link
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[647](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L647-L653)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[647](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L647-L653)]<br>
 
 <hr>
 
@@ -80,7 +80,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$timeout` | `int` | timeout in seconds
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php)[[1079](https://github.com/evrpress/mailster/blob/3.3.12/./classes/frontpage.class.php#L1079-L1086)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php)[[1079](https://github.com/evrpress/mailster/blob/3.3.13/./classes/frontpage.class.php#L1079-L1086)]<br>
 
 <hr>
 
@@ -94,7 +94,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$tags` | `array` | available tags
 
-Source: [./classes/tinymce.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/tinymce.class.php)[[139](https://github.com/evrpress/mailster/blob/3.3.12/./classes/tinymce.class.php#L139-L144)]<br>
+Source: [./classes/tinymce.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/tinymce.class.php)[[139](https://github.com/evrpress/mailster/blob/3.3.13/./classes/tinymce.class.php#L139-L144)]<br>
 
 <hr>
 
@@ -114,7 +114,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php)[[145](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php#L145-L156)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php)[[145](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php#L145-L156)]<br>
 
 <hr>
 
@@ -131,7 +131,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php)[[161](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php#L161-L169)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php)[[161](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php#L161-L169)]<br>
 
 <hr>
 
@@ -148,7 +148,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php)[[174](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php#L174-L182)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php)[[174](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php#L174-L182)]<br>
 
 <hr>
 
@@ -162,7 +162,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$inline_css` | `bool` | Whenever to enable inline styles or not
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php)[[583](https://github.com/evrpress/mailster/blob/3.3.12/./classes/mail.class.php#L583-L588)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php)[[583](https://github.com/evrpress/mailster/blob/3.3.13/./classes/mail.class.php#L583-L588)]<br>
 
 <hr>
 
@@ -176,7 +176,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$this->content` |  | 
 
-Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/placeholder.class.php)[[371](https://github.com/evrpress/mailster/blob/3.3.12/./classes/placeholder.class.php#L371-L376)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/placeholder.class.php)[[371](https://github.com/evrpress/mailster/blob/3.3.13/./classes/placeholder.class.php#L371-L376)]<br>
 
 <hr>
 
@@ -201,7 +201,7 @@ Disable the preview text hack
 ```php
 add_filter( 'mailster_preview_text_fix', '__return_false' );
 ```
-Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/placeholder.class.php)[[1091](https://github.com/evrpress/mailster/blob/3.3.12/./classes/placeholder.class.php#L1091-L1100)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/placeholder.class.php)[[1091](https://github.com/evrpress/mailster/blob/3.3.13/./classes/placeholder.class.php#L1091-L1100)]<br>
 
 <hr>
 
@@ -245,7 +245,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$defaults` | `array` | the default values
 
-Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/campaigns.class.php)[[2328](https://github.com/evrpress/mailster/blob/3.3.12/./classes/campaigns.class.php#L2328-L2363)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/campaigns.class.php)[[2328](https://github.com/evrpress/mailster/blob/3.3.13/./classes/campaigns.class.php#L2328-L2363)]<br>
 
 <hr>
 
@@ -277,7 +277,7 @@ Disable the grace period
 ```php
 add_filter( 'mailster_autoresponder_grace_period', '__return_false' );
 ```
-Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/queue.class.php)[[428](https://github.com/evrpress/mailster/blob/3.3.12/./classes/queue.class.php#L428-L436)]<br>
+Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/queue.class.php)[[428](https://github.com/evrpress/mailster/blob/3.3.13/./classes/queue.class.php#L428-L436)]<br>
 
 <hr>
 
@@ -291,7 +291,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$time_in_seconds` | `int` | the time in seconds (default:4)
 
-Source: [./classes/form.class.php](https://github.com/evrpress/mailster/blob/3.3.12/./classes/form.class.php)[[982](https://github.com/evrpress/mailster/blob/3.3.12/./classes/form.class.php#L982-L987)]<br>
+Source: [./classes/form.class.php](https://github.com/evrpress/mailster/blob/3.3.13/./classes/form.class.php)[[982](https://github.com/evrpress/mailster/blob/3.3.13/./classes/form.class.php#L982-L987)]<br>
 
 
 
