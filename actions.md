@@ -19,7 +19,7 @@ Argument | Type | Description
 `$index` | `int` | The index of the link
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php)[[429](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php#L429-L438)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L40)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[429](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L429-L438)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L40)]<br>
 
 <hr>
 
@@ -35,7 +35,7 @@ Argument | Type | Description
 `$campaign_id` | `int` | Form The ID of the campaign
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php)[[442](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php#L442-L449)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L31)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[442](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L442-L449)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L31)]<br>
 
 <hr>
 
@@ -49,7 +49,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php)[[648](https://github.com/evrpress/mailster/blob/4.0.8/./classes/frontpage.class.php#L648-L653)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[648](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L648-L653)]<br>
 
 <hr>
 
@@ -58,7 +58,7 @@ Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blo
 ###### **Checks for new newsletter in the queue to start new cronjob**
 
 
-Source: [./classes/cron.class.php](https://github.com/evrpress/mailster/blob/4.0.8/./classes/cron.class.php)[[31](https://github.com/evrpress/mailster/blob/4.0.8/./classes/cron.class.php#L31-L37)]<br>
+Source: [./classes/cron.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/cron.class.php)[[31](https://github.com/evrpress/mailster/blob/4.0.9/./classes/cron.class.php#L31-L37)]<br>
 
 <hr>
 
@@ -67,7 +67,7 @@ Source: [./classes/cron.class.php](https://github.com/evrpress/mailster/blob/4.0
 ###### **Checks for new newsletter in the queue to start new cronjob**
 
 
-Source: [./classes/cron.class.php](https://github.com/evrpress/mailster/blob/4.0.8/./classes/cron.class.php)[[31](https://github.com/evrpress/mailster/blob/4.0.8/./classes/cron.class.php#L31-L40)]<br>
+Source: [./classes/cron.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/cron.class.php)[[31](https://github.com/evrpress/mailster/blob/4.0.9/./classes/cron.class.php#L31-L40)]<br>
 
 <hr>
 
@@ -81,10 +81,14 @@ They are useful for debugging.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`1` |  | 
+
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `1` |  | 
 
-Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L22)]<br>
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
+`1` |  | 
+
+Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L22)]<br>
 
 <hr>
 
@@ -98,10 +102,14 @@ They are useful for debugging.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`1` |  | 
+
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `1` |  | 
 
-Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L49)]<br>
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
+`1` |  | 
+
+Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L49)]<br>
 
 <hr>
 
@@ -115,11 +123,17 @@ They are useful for debugging.
 
 Argument | Type | Description
 -------- | ---- | -----------
+
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `1` |  | 
+
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `1` |  | 
+
+Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `false` |  | 
 
-Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L58)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.8/./tests/integration/ActionsTest.php#L9-L66)]<br>
+Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L58)]<br>Source: [./tests/integration/ActionsTest.php](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php)[[9](https://github.com/evrpress/mailster/blob/4.0.9/./tests/integration/ActionsTest.php#L9-L66)]<br>
 
 
 
