@@ -15,7 +15,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$rules` | `array` | rewrite rules as assoc array
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[77](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L77-L82)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php)[[77](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php#L77-L82)]<br>
 
 <hr>
 
@@ -32,7 +32,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[337](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L337-L345)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php)[[337](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php#L337-L345)]<br>
 
 <hr>
 
@@ -49,7 +49,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[466](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L466-L474)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php)[[466](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php#L466-L474)]<br>
 
 <hr>
 
@@ -64,7 +64,7 @@ Argument | Type | Description
 `$target` | `string` | The redirect link
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[665](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L665-L671)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php)[[665](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php#L665-L671)]<br>
 
 <hr>
 
@@ -80,7 +80,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$timeout` | `int` | timeout in seconds
 
-Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php)[[1074](https://github.com/evrpress/mailster/blob/4.0.9/./classes/frontpage.class.php#L1074-L1081)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php)[[1072](https://github.com/evrpress/mailster/blob/4.0.10/./classes/frontpage.class.php#L1072-L1079)]<br>
 
 <hr>
 
@@ -94,7 +94,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$tags` | `array` | available tags
 
-Source: [./classes/tinymce.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/tinymce.class.php)[[131](https://github.com/evrpress/mailster/blob/4.0.9/./classes/tinymce.class.php#L131-L136)]<br>
+Source: [./classes/tinymce.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/tinymce.class.php)[[131](https://github.com/evrpress/mailster/blob/4.0.10/./classes/tinymce.class.php#L131-L136)]<br>
 
 <hr>
 
@@ -106,11 +106,9 @@ Source: [./classes/tinymce.class.php](https://github.com/evrpress/mailster/blob/
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `10000` |  | 
 
-Source: [./classes/automation.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/automation.class.php)[[451](https://github.com/evrpress/mailster/blob/4.0.9/./classes/automation.class.php#L451-L456)]<br>
+Source: [./classes/automation.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/automation.class.php)[[451](https://github.com/evrpress/mailster/blob/4.0.10/./classes/automation.class.php#L451-L456)]<br>
 
 <hr>
 
@@ -122,11 +120,9 @@ Source: [./classes/automation.class.php](https://github.com/evrpress/mailster/bl
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `15` |  | 
 
-Source: [./classes/automation.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/automation.class.php)[[458](https://github.com/evrpress/mailster/blob/4.0.9/./classes/automation.class.php#L458-L463)]<br>
+Source: [./classes/automation.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/automation.class.php)[[458](https://github.com/evrpress/mailster/blob/4.0.10/./classes/automation.class.php#L458-L463)]<br>
 
 <hr>
 
@@ -146,7 +142,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php)[[150](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php#L150-L161)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php)[[150](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php#L150-L161)]<br>
 
 <hr>
 
@@ -163,7 +159,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php)[[166](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php#L166-L174)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php)[[166](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php#L166-L174)]<br>
 
 <hr>
 
@@ -180,7 +176,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php)[[179](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php#L179-L187)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php)[[179](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php#L179-L187)]<br>
 
 <hr>
 
@@ -194,7 +190,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$inline_css` | `bool` | Whenever to enable inline styles or not
 
-Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php)[[589](https://github.com/evrpress/mailster/blob/4.0.9/./classes/mail.class.php#L589-L594)]<br>
+Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php)[[589](https://github.com/evrpress/mailster/blob/4.0.10/./classes/mail.class.php#L589-L594)]<br>
 
 <hr>
 
@@ -206,11 +202,9 @@ Source: [./classes/mail.class.php](https://github.com/evrpress/mailster/blob/4.0
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `$this->content` |  | 
 
-Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/placeholder.class.php)[[375](https://github.com/evrpress/mailster/blob/4.0.9/./classes/placeholder.class.php#L375-L380)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/placeholder.class.php)[[375](https://github.com/evrpress/mailster/blob/4.0.10/./classes/placeholder.class.php#L375-L380)]<br>
 
 <hr>
 
@@ -227,8 +221,6 @@ defaults:<br />
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `true` |  | 
 
 **Example**
@@ -238,7 +230,7 @@ Disable the preview text hack
 ```php
 add_filter( 'mailster_preview_text_fix', '__return_false' );
 ```
-Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/placeholder.class.php)[[1106](https://github.com/evrpress/mailster/blob/4.0.9/./classes/placeholder.class.php#L1106-L1116)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/placeholder.class.php)[[1106](https://github.com/evrpress/mailster/blob/4.0.10/./classes/placeholder.class.php#L1106-L1116)]<br>
 
 <hr>
 
@@ -250,13 +242,11 @@ Source: [./classes/placeholder.class.php](https://github.com/evrpress/mailster/b
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `null` |  | 
 `$form_id` | `int` | the form id
 `$options` | `array` | the options
 
-Source: [./classes/block-forms.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/block-forms.class.php)[[332](https://github.com/evrpress/mailster/blob/4.0.9/./classes/block-forms.class.php#L332-L339)]<br>
+Source: [./classes/block-forms.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/block-forms.class.php)[[332](https://github.com/evrpress/mailster/blob/4.0.10/./classes/block-forms.class.php#L332-L339)]<br>
 
 <hr>
 
@@ -268,11 +258,9 @@ Source: [./classes/block-forms.class.php](https://github.com/evrpress/mailster/b
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `4` |  | 
 
-Source: [./classes/rest-controller/rest.form.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/rest-controller/rest.form.class.php)[[200](https://github.com/evrpress/mailster/blob/4.0.9/./classes/rest-controller/rest.form.class.php#L200-L205)]<br>Source: [./classes/form.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/form.class.php)[[981](https://github.com/evrpress/mailster/blob/4.0.9/./classes/form.class.php#L981-L986)]<br>
+Source: [./classes/rest-controller/rest.form.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/rest-controller/rest.form.class.php)[[200](https://github.com/evrpress/mailster/blob/4.0.10/./classes/rest-controller/rest.form.class.php#L200-L205)]<br>Source: [./classes/form.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/form.class.php)[[981](https://github.com/evrpress/mailster/blob/4.0.10/./classes/form.class.php#L981-L986)]<br>
 
 <hr>
 
@@ -288,7 +276,7 @@ Argument | Type | Description
 `$entry` | `array` | the collected user data
 `$request` | `object` | the request
 
-Source: [./classes/rest-controller/rest.form.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/rest-controller/rest.form.class.php)[[211](https://github.com/evrpress/mailster/blob/4.0.9/./classes/rest-controller/rest.form.class.php#L211-L218)]<br>
+Source: [./classes/rest-controller/rest.form.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/rest-controller/rest.form.class.php)[[211](https://github.com/evrpress/mailster/blob/4.0.10/./classes/rest-controller/rest.form.class.php#L211-L218)]<br>
 
 <hr>
 
@@ -332,7 +320,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$defaults` | `array` | the default values
 
-Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/campaigns.class.php)[[2568](https://github.com/evrpress/mailster/blob/4.0.9/./classes/campaigns.class.php#L2568-L2603)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/campaigns.class.php)[[2568](https://github.com/evrpress/mailster/blob/4.0.10/./classes/campaigns.class.php#L2568-L2603)]<br>
 
 <hr>
 
@@ -345,14 +333,10 @@ Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blo
 Argument | Type | Description
 -------- | ---- | -----------
 `$headers` | `array` | default header values
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `$campaign->ID` |  | 
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `$subscriber->ID` |  | 
 
-Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/campaigns.class.php)[[5273](https://github.com/evrpress/mailster/blob/4.0.9/./classes/campaigns.class.php#L5273-L5280)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/campaigns.class.php)[[5273](https://github.com/evrpress/mailster/blob/4.0.10/./classes/campaigns.class.php#L5273-L5280)]<br>
 
 <hr>
 
@@ -367,8 +351,6 @@ default: 604800 (one week)
 Argument | Type | Description
 -------- | ---- | -----------
 `$grace_period` | `int` | The grace period in seconds. set to false to disable
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `$campaign` |  | 
 
 **Example**
@@ -386,7 +368,7 @@ Disable the grace period
 ```php
 add_filter( 'mailster_autoresponder_grace_period', '__return_false' );
 ```
-Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/queue.class.php)[[427](https://github.com/evrpress/mailster/blob/4.0.9/./classes/queue.class.php#L427-L435)]<br>
+Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/queue.class.php)[[427](https://github.com/evrpress/mailster/blob/4.0.10/./classes/queue.class.php#L427-L435)]<br>
 
 <hr>
 
@@ -398,12 +380,10 @@ Source: [./classes/queue.class.php](https://github.com/evrpress/mailster/blob/4.
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `$hash` |  | 
 `$email` | `\unknown` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/evrpress/mailster/blob/4.0.9/./classes/subscribers.class.php)[[4286](https://github.com/evrpress/mailster/blob/4.0.9/./classes/subscribers.class.php#L4286-L4301)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/evrpress/mailster/blob/4.0.10/./classes/subscribers.class.php)[[4286](https://github.com/evrpress/mailster/blob/4.0.10/./classes/subscribers.class.php#L4286-L4301)]<br>
 
 <hr>
 
@@ -415,8 +395,6 @@ Source: [./classes/subscribers.class.php](https://github.com/evrpress/mailster/b
 
 Argument | Type | Description
 -------- | ---- | -----------
-
-Deprecated: addcslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/Xaver/Sites/dev.local/app/public/wp-content/plugins/mailster/.github/wp-documentor/markdown-hook.php on line 62
 `(bool) preg_match('/curl|wget/i', $user_agent) || isset($_GET['simple'])` |  | 
 
 **Changelog**
@@ -425,7 +403,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./includes/cron.php](https://github.com/evrpress/mailster/blob/4.0.9/./includes/cron.php)[[33](https://github.com/evrpress/mailster/blob/4.0.9/./includes/cron.php#L33-L40)]<br>
+Source: [./includes/cron.php](https://github.com/evrpress/mailster/blob/4.0.10/./includes/cron.php)[[33](https://github.com/evrpress/mailster/blob/4.0.10/./includes/cron.php#L33-L40)]<br>
 
 
 
