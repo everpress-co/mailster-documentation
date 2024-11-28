@@ -13,7 +13,7 @@ Mailster provides various hooks and filters you can use to alter the behavior of
 
 Argument | Type | Description
 -------- | ---- | -----------
-`(bool) preg_match('/curl|wget/i', $user_agent) || isset($_GET['simple'])` |  | 
+`(bool) preg_match('/curl|wget/i', $user_agent) || isset($_GET['simple'])` | `` | 
 
 **Changelog**
 
@@ -35,7 +35,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$time_in_seconds` | `int` | the time in seconds (default:4)
 
-Source: [./classes/form.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/form.class.php)[[981](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/form.class.php#L981-L986)]<br>Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/rest-controller/rest.form.class.php)[[200](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/rest-controller/rest.form.class.php#L200-L205)]<br>
+Source: [./classes/form.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/form.class.php)[[981](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/form.class.php#L981-L986)]<br>
 
 <hr>
 
@@ -69,11 +69,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php)[[150](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php#L150-L161)]<br>
-
-<hr>
-
-#### `mailster_server_errors`
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php)[[150](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php#L150-L161)]<br>#### `mailster_server_errors`
 
 ###### **Default server errors where campaigns get paused or skipped**
 
@@ -86,11 +82,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$default` | `array` | default values
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php)[[166](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php#L166-L174)]<br>
-
-<hr>
-
-#### `mailster_system_errors`
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php)[[166](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/mail.class.php#L166-L174)]<br>#### `mailster_system_errors`
 
 ###### **Default System errors where campaigns get paused or skipped**
 
@@ -148,11 +140,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php)[[337](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php#L337-L345)]<br>
-
-<hr>
-
-#### `mailster_redirect_to`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php)[[337](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php#L337-L345)]<br>#### `mailster_redirect_to`
 
 ###### **Filters the redirection target after clicking a link in a campaign**
 
@@ -211,24 +199,23 @@ default: 604800 (one week)
 Argument | Type | Description
 -------- | ---- | -----------
 `$grace_period` | `int` | The grace period in seconds. set to false to disable
-`$campaign` |  | 
+`$campaign` | `` | 
 
-**Example**
-
-Adjust to one month
-
-```php
-add_filter( 'mailster_autoresponder_grace_period', function( $grace_period_in_seconds, $campaign_id ){
-	return MONTH_IN_SECONDS;
-},10 , 2 );
-```
-
-Disable the grace period
-
-```php
-add_filter( 'mailster_autoresponder_grace_period', '__return_false' );
-```
 Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/queue.class.php)[[427](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/queue.class.php#L427-L435)]<br>
+
+<hr>
+
+#### `mailster_time_check_value`
+
+###### **Seconds to prevent forms being submitted**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`4` | `` | 
+
+Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/rest-controller/rest.form.class.php)[[200](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/rest-controller/rest.form.class.php#L200-L205)]<br>
 
 <hr>
 
@@ -256,7 +243,7 @@ Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everp
 
 Argument | Type | Description
 -------- | ---- | -----------
-`10000` |  | 
+`10000` | `` | 
 
 Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/automation.class.php)[[615](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/automation.class.php#L615-L620)]<br>
 
@@ -270,7 +257,7 @@ Source: [./classes/automation.class.php](https://github.com/everpress-co/mailste
 
 Argument | Type | Description
 -------- | ---- | -----------
-`15` |  | 
+`15` | `` | 
 
 Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/automation.class.php)[[622](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/automation.class.php#L622-L627)]<br>
 
@@ -284,7 +271,7 @@ Source: [./classes/automation.class.php](https://github.com/everpress-co/mailste
 
 Argument | Type | Description
 -------- | ---- | -----------
-`null` |  | 
+`null` | `` | 
 `$form_id` | `int` | the form id
 `$options` | `array` | the options
 
@@ -300,7 +287,7 @@ Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailst
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$hash` |  | 
+`$hash` | `` | 
 `$email` | `\unknown` | 
 
 Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/subscribers.class.php)[[4326](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/subscribers.class.php#L4326-L4341)]<br>
@@ -360,8 +347,8 @@ Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster
 Argument | Type | Description
 -------- | ---- | -----------
 `$headers` | `array` | default header values
-`$campaign->ID` |  | 
-`$subscriber->ID` |  | 
+`$campaign->ID` | `` | 
+`$subscriber->ID` | `` | 
 
 Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/campaigns.class.php)[[5275](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/campaigns.class.php#L5275-L5282)]<br>
 
@@ -375,7 +362,7 @@ Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this->content` |  | 
+`$this->content` | `` | 
 
 Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/placeholder.class.php)[[376](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/placeholder.class.php#L376-L381)]<br>
 
@@ -394,15 +381,8 @@ defaults:<br />
 
 Argument | Type | Description
 -------- | ---- | -----------
-`true` |  | 
+`true` | `` | 
 
-**Example**
-
-Disable the preview text hack
-
-```php
-add_filter( 'mailster_preview_text_fix', '__return_false' );
-```
 Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/placeholder.class.php)[[1107](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/placeholder.class.php#L1107-L1117)]<br>
 
 
