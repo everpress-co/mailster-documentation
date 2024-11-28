@@ -1,3 +1,13 @@
+### Version 4.1.6 (2024-11-27)
+
+- fixed: campaigns cache were not cleared on status change
+- fixed: condition using "have" and "doesn't have" tags returned wrong results
+- fixed: force boolean on some expressions
+- added: '__nextHasNoMarginBottom' to components to prevent deprecated messages in WP 6.7
+- removed: option to upgrade license from notification
+- updated: dependencies for composer and npm
+- Less use of constant MAILSTER_BUILT
+
 ### Version 4.1.5 (2024-11-11)
 
 - improved: admin notices improvements
