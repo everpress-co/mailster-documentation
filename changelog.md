@@ -1,3 +1,32 @@
+### Version 4.1.10 (2025-03-10)
+
+- fixed: improve capabilities and permissions system
+- updated Dependencies and Package Versions
+- chore: update commit message guidelines
+- updated: improve form block error handling
+- updated: refactor homepage block edit and inspector controls
+
+### Version 4.1.9 (2013-02-10)
+
+- fixed: missing capability to delete campaigns in some case
+- fixed: missing key in array function
+- added: new capabilities `delete_private_newsletters`, `delete_published_newsletters`
+- improved: alignment of elements in the automation inspector
+- improved: use `ToggleGroupControl` on update custom field action for checkboxes
+- package upgrades
+
+### Version 4.1.8 (2025-01-07)
+
+- fixed: bug when subscribe on multiple lists. 'wpdb->delete' may return 0 so do better checks
+- removed redundant shortcode
+- updated packages
+
+### Version 4.1.7 (2024-12-17)
+
+- fixed: issue where activating caused a fatal error if `wp_mail` is used by another plugin
+- fixed: typo
+- updated: Freemius SDK to 2.10.1
+
 ### Version 4.1.6 (2024-11-27)
 
 - fixed: campaigns cache were not cleared on status change
