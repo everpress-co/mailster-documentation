@@ -15,7 +15,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$id` | `` | 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/notices.class.php#L162-L181)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/notices.class.php#L162-L181)]<br>
 
 <hr>
 
@@ -24,7 +24,7 @@ Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/b
 ###### **Remove a notice**
 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/notices.class.php#L162-L182)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/notices.class.php#L162-L182)]<br>
 
 <hr>
 
@@ -42,7 +42,7 @@ Argument | Type | Description
 `$index` | `int` | The index of the link
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php)[[429](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php#L429-L438)]<br>#### `mailster_open`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php)[[429](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php#L429-L438)]<br>#### `mailster_open`
 
 ###### **Fires if user opens on a campaign and tracking is enabled**
 
@@ -54,7 +54,7 @@ Argument | Type | Description
 `$campaign_id` | `int` | Form The ID of the campaign
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php)[[442](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php#L442-L449)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php)[[442](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php#L442-L449)]<br>
 
 <hr>
 
@@ -68,7 +68,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php)[[649](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/frontpage.class.php#L649-L654)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php)[[649](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/frontpage.class.php#L649-L654)]<br>
 
 <hr>
 
@@ -77,7 +77,7 @@ Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster
 ###### **Checks for new newsletter in the queue to start new cronjob**
 
 
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/cron.class.php#L31-L37)]<br>
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/cron.class.php#L31-L37)]<br>
 
 <hr>
 
@@ -86,7 +86,7 @@ Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob
 ###### **Checks for new newsletter in the queue to start new cronjob**
 
 
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.6/./classes/cron.class.php#L31-L40)]<br>
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.13/./classes/cron.class.php#L31-L40)]<br>
 
 
 
