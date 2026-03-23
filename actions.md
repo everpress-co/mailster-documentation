@@ -5,6 +5,24 @@ Mailster provides various hooks and filters you can use to alter the behavior of
 
 <hr>
 
+#### `mailster_check_bounces`
+
+###### **Checks for new newsletter in the queue to start new cronjob**
+
+
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/cron.class.php#L31-L37)]<br>
+
+<hr>
+
+#### `mailster_resend_confirmations`
+
+###### **Checks for new newsletter in the queue to start new cronjob**
+
+
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/cron.class.php#L31-L40)]<br>
+
+<hr>
+
 #### `mailster_remove_notice`
 
 ###### **Remove a notice**
@@ -15,7 +33,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$id` | `` | 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/notices.class.php#L162-L181)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/notices.class.php#L162-L181)]<br>
 
 <hr>
 
@@ -24,7 +42,7 @@ Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/b
 ###### **Remove a notice**
 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/notices.class.php#L162-L182)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/notices.class.php)[[162](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/notices.class.php#L162-L182)]<br>
 
 <hr>
 
@@ -42,7 +60,7 @@ Argument | Type | Description
 `$index` | `int` | The index of the link
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php)[[432](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php#L432-L441)]<br>#### `mailster_open`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[432](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L432-L441)]<br>#### `mailster_open`
 
 ###### **Fires if user opens on a campaign and tracking is enabled**
 
@@ -54,7 +72,7 @@ Argument | Type | Description
 `$campaign_id` | `int` | Form The ID of the campaign
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php#L445-L452)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L445-L452)]<br>
 
 <hr>
 
@@ -68,25 +86,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php)[[652](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/frontpage.class.php#L652-L657)]<br>
-
-<hr>
-
-#### `mailster_check_bounces`
-
-###### **Checks for new newsletter in the queue to start new cronjob**
-
-
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/cron.class.php#L31-L37)]<br>
-
-<hr>
-
-#### `mailster_resend_confirmations`
-
-###### **Checks for new newsletter in the queue to start new cronjob**
-
-
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/cron.class.php)[[31](https://github.com/everpress-co/mailster/blob/4.1.16/./classes/cron.class.php#L31-L40)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[652](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L652-L657)]<br>
 
 
 
