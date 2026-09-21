@@ -5,97 +5,18 @@ Mailster provides various hooks and filters you can use to alter the behavior of
 
 <hr>
 
-#### `mailster_cron_simple_output`
+#### `mailster_subscriber_hash`
 
-###### **Filter the output of the cron page.**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`(bool) preg_match('/curl|wget/i', $user_agent) || isset($_GET['simple'])` | `` | 
-
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.0.0` | 
-
-Source: [./includes/cron.php](https://github.com/everpress-co/mailster/blob/4.1.17/./includes/cron.php)[[33](https://github.com/everpress-co/mailster/blob/4.1.17/./includes/cron.php#L33-L40)]<br>
-
-<hr>
-
-#### `mailster_subscriber_errors`
-
-###### **Default subscriber errors where campaigns do not get paused or skipped**
-
-defaults:<br />
-`SMTP Error: The following recipients failed`<br />
-`The following From address failed`<br />
-`Invalid address:`<br />
-`SMTP Error: Data not accepted`
+###### **calcuate the hash for a subscriber. This should NOT be simple md5**
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$default` | `array` | default values
+`$hash` | `` | 
+`$email` | `\unknown` | 
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php)[[150](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php#L150-L161)]<br>#### `mailster_server_errors`
-
-###### **Default server errors where campaigns get paused or skipped**
-
-defaults:<br />
-`Sender address rejected`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$default` | `array` | default values
-
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php)[[166](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php#L166-L174)]<br>#### `mailster_system_errors`
-
-###### **Default System errors where campaigns get paused or skipped**
-
-defaults:<br />
-`Not in Time Frame`
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$default` | `array` | default values
-
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php)[[179](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php#L179-L187)]<br>
-
-<hr>
-
-#### `mailster_inline_css`
-
-###### **Filter to skip inline CSS**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$inline_css` | `bool` | Whenever to enable inline styles or not
-
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php)[[589](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/mail.class.php#L589-L594)]<br>
-
-<hr>
-
-#### `mailster_editor_tags`
-
-###### **Modify displayed tags in the editbar**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$tags` | `array` | available tags
-
-Source: [./classes/tinymce.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/tinymce.class.php)[[131](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/tinymce.class.php#L131-L136)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/subscribers.class.php)[[4351](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/subscribers.class.php#L4351-L4366)]<br>
 
 <hr>
 
@@ -109,7 +30,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$this->content` | `` | 
 
-Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/placeholder.class.php)[[376](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/placeholder.class.php#L376-L381)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/placeholder.class.php)[[376](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/placeholder.class.php#L376-L381)]<br>
 
 <hr>
 
@@ -128,24 +49,35 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` | `` | 
 
-Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/placeholder.class.php)[[1107](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/placeholder.class.php#L1107-L1117)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/placeholder.class.php)[[1107](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/placeholder.class.php#L1107-L1117)]<br>
 
 <hr>
 
-#### `mailster_autoresponder_grace_period`
+#### `mailster_workflow_limit`
 
-###### **Filter the grace period from campaigns to decide the time when user no longer get the campaign.**
-
-default: 604800 (one week)
+###### **filter the limit of subscribers per workflow run**
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$grace_period` | `int` | The grace period in seconds. set to false to disable
-`$campaign` | `` | 
+`10000` | `` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/queue.class.php)[[427](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/queue.class.php#L427-L435)]<br>
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/automation.class.php)[[613](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/automation.class.php#L613-L618)]<br>
+
+<hr>
+
+#### `mailster_workflow_runtime`
+
+###### **filter the max runtime of a workflow**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`15` | `` | 
+
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/automation.class.php)[[620](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/automation.class.php#L620-L625)]<br>
 
 <hr>
 
@@ -159,7 +91,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$rules` | `array` | rewrite rules as assoc array
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[77](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L77-L82)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php)[[77](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php#L77-L82)]<br>
 
 <hr>
 
@@ -176,7 +108,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[337](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L337-L345)]<br>#### `mailster_redirect_to`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php)[[337](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php#L337-L345)]<br>#### `mailster_redirect_to`
 
 ###### **Filters the redirection target after clicking a link in a campaign**
 
@@ -189,7 +121,7 @@ Argument | Type | Description
 `$subscriber_id` | `int` | Form The ID of the subscriber
 `$campaign_index` | `int` | The index of the link
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[470](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L470-L478)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php)[[470](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php#L470-L478)]<br>
 
 <hr>
 
@@ -204,7 +136,7 @@ Argument | Type | Description
 `$target` | `string` | The redirect link
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[669](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L669-L675)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php)[[669](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php#L669-L675)]<br>
 
 <hr>
 
@@ -220,110 +152,21 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$timeout` | `int` | timeout in seconds
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php)[[1077](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/frontpage.class.php#L1077-L1084)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php)[[1077](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/frontpage.class.php#L1077-L1084)]<br>
 
 <hr>
 
-#### `mailster_time_check_value`
+#### `mailster_editor_tags`
 
-###### **Seconds to prevent forms being submitted**
+###### **Modify displayed tags in the editbar**
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$time_in_seconds` | `int` | the time in seconds (default:4)
+`$tags` | `array` | available tags
 
-Source: [./classes/form.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/form.class.php)[[981](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/form.class.php#L981-L986)]<br>
-
-<hr>
-
-#### `mailster_block_form_pre_check_validity`
-
-###### **Pre-Filter the validity of the form. If false the form will not be displayed if true it will be displayed.**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`null` | `` | 
-`$form_id` | `int` | the form id
-`$options` | `array` | the options
-
-Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/block-forms.class.php)[[394](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/block-forms.class.php#L394-L401)]<br>
-
-<hr>
-
-#### `mailster_subscriber_hash`
-
-###### **calcuate the hash for a subscriber. This should NOT be simple md5**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$hash` | `` | 
-`$email` | `\unknown` | 
-
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/subscribers.class.php)[[4326](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/subscribers.class.php#L4326-L4341)]<br>
-
-<hr>
-
-#### `mailster_time_check_value`
-
-###### **Seconds to prevent forms being submitted**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`4` | `` | 
-
-Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/rest-controller/rest.form.class.php)[[200](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/rest-controller/rest.form.class.php#L200-L205)]<br>
-
-<hr>
-
-#### `mailster_block_form_field_errors`
-
-###### **Allow third parties to hook into the form submission errors**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$fields_errors` | `array` | all current error
-`$entry` | `array` | the collected user data
-`$request` | `object` | the request
-
-Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/rest-controller/rest.form.class.php)[[211](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/rest-controller/rest.form.class.php#L211-L218)]<br>
-
-<hr>
-
-#### `mailster_workflow_limit`
-
-###### **filter the limit of subscribers per workflow run**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`10000` | `` | 
-
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/automation.class.php)[[613](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/automation.class.php#L613-L618)]<br>
-
-<hr>
-
-#### `mailster_workflow_runtime`
-
-###### **filter the max runtime of a workflow**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`15` | `` | 
-
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/automation.class.php)[[620](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/automation.class.php#L620-L625)]<br>
+Source: [./classes/tinymce.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/tinymce.class.php)[[131](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/tinymce.class.php#L131-L136)]<br>
 
 <hr>
 
@@ -367,7 +210,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$defaults` | `array` | the default values
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/campaigns.class.php)[[2562](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/campaigns.class.php#L2562-L2597)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/campaigns.class.php)[[2562](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/campaigns.class.php#L2562-L2597)]<br>
 
 <hr>
 
@@ -383,7 +226,187 @@ Argument | Type | Description
 `$campaign->ID` | `` | 
 `$subscriber->ID` | `` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/campaigns.class.php)[[5267](https://github.com/everpress-co/mailster/blob/4.1.17/./classes/campaigns.class.php#L5267-L5274)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/campaigns.class.php)[[5267](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/campaigns.class.php#L5267-L5274)]<br>
+
+<hr>
+
+#### `mailster_autoresponder_grace_period`
+
+###### **Filter the grace period from campaigns to decide the time when user no longer get the campaign.**
+
+default: 604800 (one week)
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$grace_period` | `int` | The grace period in seconds. set to false to disable
+`$campaign` | `` | 
+
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/queue.class.php)[[427](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/queue.class.php#L427-L435)]<br>
+
+<hr>
+
+#### `mailster_time_check_value`
+
+###### **Seconds to prevent forms being submitted**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$time_in_seconds` | `int` | the time in seconds (default:4)
+
+Source: [./classes/form.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/form.class.php)[[981](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/form.class.php#L981-L986)]<br>
+
+<hr>
+
+#### `mailster_block_form_pre_check_validity`
+
+###### **Pre-Filter the validity of the form. If false the form will not be displayed if true it will be displayed.**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`null` | `` | 
+`$form_id` | `int` | the form id
+`$options` | `array` | the options
+
+Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/block-forms.class.php)[[474](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/block-forms.class.php#L474-L481)]<br>
+
+<hr>
+
+#### `mailster_subscriber_errors`
+
+###### **Default subscriber errors where campaigns do not get paused or skipped**
+
+defaults:<br />
+`SMTP Error: The following recipients failed`<br />
+`The following From address failed`<br />
+`Invalid address:`<br />
+`SMTP Error: Data not accepted`
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$default` | `array` | default values
+
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php)[[150](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php#L150-L161)]<br>#### `mailster_server_errors`
+
+###### **Default server errors where campaigns get paused or skipped**
+
+defaults:<br />
+`Sender address rejected`
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$default` | `array` | default values
+
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php)[[166](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php#L166-L174)]<br>#### `mailster_system_errors`
+
+###### **Default System errors where campaigns get paused or skipped**
+
+defaults:<br />
+`Not in Time Frame`
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$default` | `array` | default values
+
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php)[[179](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php#L179-L187)]<br>
+
+<hr>
+
+#### `mailster_inline_css`
+
+###### **Filter to skip inline CSS**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$inline_css` | `bool` | Whenever to enable inline styles or not
+
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php)[[589](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/mail.class.php#L589-L594)]<br>
+
+<hr>
+
+#### `mailster_time_check_value`
+
+###### **Seconds to prevent forms being submitted**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`4` | `` | 
+
+Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/rest-controller/rest.form.class.php)[[199](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/rest-controller/rest.form.class.php#L199-L204)]<br>
+
+<hr>
+
+#### `mailster_block_form_field_errors`
+
+###### **Allow third parties to hook into the form submission errors**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$fields_errors` | `array` | all current error
+`$entry` | `array` | the collected user data
+`$request` | `object` | the request
+
+Source: [./classes/rest-controller/rest.form.class.php](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/rest-controller/rest.form.class.php)[[210](https://github.com/everpress-co/mailster/blob/4.1.19/./classes/rest-controller/rest.form.class.php#L210-L217)]<br>
+
+<hr>
+
+#### `mailster_cron_simple_output`
+
+###### **Filter the output of the cron page.**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`(bool) preg_match('/curl|wget/i', $user_agent) || isset($_GET['simple'])` | `` | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.0.0` | 
+
+Source: [./includes/cron.php](https://github.com/everpress-co/mailster/blob/4.1.19/./includes/cron.php)[[33](https://github.com/everpress-co/mailster/blob/4.1.19/./includes/cron.php#L33-L40)]<br>
+
+<hr>
+
+#### `mailster_get_rate_limit_ip`
+
+###### **Return the client IP for rate limiting and anti-flood checks.**
+
+Defaults to REMOTE_ADDR so spoofed X-Forwarded-For headers cannot bypass limits.<br />
+Sites behind a trusted reverse proxy may override via the mailster_get_rate_limit_ip filter.
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`null` | `` | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.1.19` | 
+
+Source: [./includes/functions.php](https://github.com/everpress-co/mailster/blob/4.1.19/./includes/functions.php)[[626](https://github.com/everpress-co/mailster/blob/4.1.19/./includes/functions.php#L626-L638)]<br>
 
 
 
