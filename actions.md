@@ -21,7 +21,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[102](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L102-L115)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[103](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L103-L116)]<br>
 
 <hr>
 
@@ -39,7 +39,7 @@ Argument | Type | Description
 `$index` | `int` | The index of the link
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[470](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L470-L479)]<br>#### `mailster_open`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[471](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L471-L480)]<br>#### `mailster_open`
 
 ###### **Fires if user opens on a campaign and tracking is enabled**
 
@@ -51,7 +51,7 @@ Argument | Type | Description
 `$campaign_id` | `int` | Form The ID of the campaign
 `$campaign_index` | `int` | The index of the campaign
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[483](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L483-L490)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[484](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L484-L491)]<br>
 
 <hr>
 
@@ -66,7 +66,7 @@ Version | Description
 ------- | -----------
 `2.2.8` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[558](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L558-L577)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[559](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L559-L578)]<br>
 
 <hr>
 
@@ -81,7 +81,7 @@ Version | Description
 ------- | -----------
 `2.2.8` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[558](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L558-L613)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[559](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L559-L614)]<br>
 
 <hr>
 
@@ -96,7 +96,7 @@ Version | Description
 ------- | -----------
 `2.2.8` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[558](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L558-L629)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[559](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L559-L630)]<br>
 
 <hr>
 
@@ -111,7 +111,7 @@ Version | Description
 ------- | -----------
 `2.2.8` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[558](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L558-L652)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[559](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L559-L653)]<br>
 
 <hr>
 
@@ -125,7 +125,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subscriber_id` | `int` | The ID of the subscriber
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[729](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L729-L734)]<br>#### `mailster_subscriber_save`
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[730](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L730-L735)]<br>#### `mailster_subscriber_save`
 
 ###### **Handles create and update submissions on the subscriber edit screen.**
 
@@ -141,7 +141,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L445-L474)]<br>#### `mailster_update_subscriber`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[481](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L481-L510)]<br>#### `mailster_update_subscriber`
 
 ###### **Updates an existing subscriber or creates one when missing.**
 
@@ -157,7 +157,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[1103](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L1103-L1292)]<br>#### `mailster_add_subscriber`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[1136](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L1136-L1325)]<br>#### `mailster_add_subscriber`
 
 ###### **Adds a new subscriber, optionally overwriting or merging an existing one.**
 
@@ -173,7 +173,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[1320](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L1320-L1387)]<br>#### `mailster_list_unconfirmed`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[1353](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L1353-L1420)]<br>#### `mailster_list_unconfirmed`
 
 ###### **Clears the list membership `added` timestamp for a subscriber.**
 
@@ -190,7 +190,7 @@ Version | Description
 ------- | -----------
 `2.3.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[623](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L623-L650)]<br>#### `mailster_list_removed`
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[624](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L624-L651)]<br>#### `mailster_list_removed`
 
 ###### **Deletes a list–subscriber relationship.**
 
@@ -207,7 +207,7 @@ Version | Description
 ------- | -----------
 `2.2.3` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[789](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L789-L813)]<br>
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[790](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L790-L817)]<br>
 
 <hr>
 
@@ -222,7 +222,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[817](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L817-L839)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[818](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L818-L840)]<br>
 
 <hr>
 
@@ -237,7 +237,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php)[[817](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/frontpage.class.php#L817-L890)]<br>
+Source: [./classes/frontpage.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php)[[818](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/frontpage.class.php#L818-L891)]<br>
 
 <hr>
 
@@ -252,7 +252,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/cron.class.php)[[47](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/cron.class.php#L47-L57)]<br>
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/cron.class.php)[[48](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/cron.class.php#L48-L58)]<br>
 
 <hr>
 
@@ -267,7 +267,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/cron.class.php)[[47](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/cron.class.php#L47-L60)]<br>
+Source: [./classes/cron.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/cron.class.php)[[48](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/cron.class.php#L48-L61)]<br>
 
 <hr>
 
@@ -287,7 +287,7 @@ Version | Description
 ------- | -----------
 `3.0` | 
 
-Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php)[[40](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php#L40-L105)]<br>
+Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php)[[41](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php#L41-L106)]<br>
 
 <hr>
 
@@ -299,7 +299,7 @@ Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$tag_id` | `int|string` | Tag ID or name.
+`$tag_id` | `` | 
 `$subscriber_id` | `int` | Subscriber ID.
 `$name` | `` | 
 
@@ -309,7 +309,7 @@ Version | Description
 ------- | -----------
 `3.0` | 
 
-Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php)[[253](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php#L253-L282)]<br>#### `mailster_tag_removed`
+Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php)[[294](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php#L294-L326)]<br>#### `mailster_tag_removed`
 
 ###### **Unassigns a single tag from a single subscriber.**
 
@@ -317,7 +317,7 @@ Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$tag_id` | `int|string` | Tag ID or name.
+`$tag_id` | `` | 
 `$subscriber_id` | `int` | Subscriber ID.
 `$name` | `` | 
 
@@ -327,7 +327,7 @@ Version | Description
 ------- | -----------
 `3.0` | 
 
-Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php)[[330](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tags.class.php#L330-L358)]<br>
+Source: [./classes/tags.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php)[[374](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tags.class.php#L374-L408)]<br>
 
 <hr>
 
@@ -347,7 +347,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php)[[323](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php#L323-L371)]<br>#### `mailster_initsend`
+Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php)[[324](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php#L324-L372)]<br>#### `mailster_initsend`
 
 ###### **Configures the mailer transport, DKIM, limits, and error classifiers.**
 
@@ -363,7 +363,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php)[[411](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php#L411-L466)]<br>#### `mailster_presend`
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php)[[413](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php#L413-L468)]<br>#### `mailster_presend`
 
 ###### **Runs presend/dosend hooks and returns the Message-ID when sent.**
 
@@ -379,7 +379,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php)[[988](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php#L988-L1006)]<br>#### `mailster_dosend`
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php)[[992](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php#L992-L1010)]<br>#### `mailster_dosend`
 
 ###### **Runs presend/dosend hooks and returns the Message-ID when sent.**
 
@@ -395,7 +395,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php)[[988](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mail.class.php#L988-L1012)]<br>
+Source: [./classes/mail.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php)[[992](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mail.class.php#L992-L1016)]<br>
 
 <hr>
 
@@ -410,7 +410,7 @@ Version | Description
 ------- | -----------
 `3.2.5` | 
 
-Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php)[[1280](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php#L1280-L1296)]<br>Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php)[[1538](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php#L1538-L1550)]<br>Source: [./classes/upgrade.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/upgrade.class.php)[[493](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/upgrade.class.php#L493-L504)]<br>Source: [./classes/health.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/health.class.php)[[46](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/health.class.php#L46-L55)]<br>Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[1571](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L1571-L1591)]<br>Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[1596](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L1596-L1611)]<br>Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php)[[1436](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php#L1436-L1456)]<br>Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php)[[1465](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php#L1465-L1480)]<br>
+Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php)[[1283](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php#L1283-L1301)]<br>Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php)[[1545](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php#L1545-L1559)]<br>Source: [./classes/upgrade.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/upgrade.class.php)[[496](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/upgrade.class.php#L496-L507)]<br>Source: [./classes/health.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/health.class.php)[[47](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/health.class.php#L47-L56)]<br>Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[1578](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L1578-L1598)]<br>Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[1603](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L1603-L1618)]<br>Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php)[[1441](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php#L1441-L1461)]<br>Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php)[[1470](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php#L1470-L1485)]<br>
 
 <hr>
 
@@ -430,7 +430,7 @@ Version | Description
 ------- | -----------
 `3.2.5` | 
 
-Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php)[[1338](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php#L1338-L1398)]<br>
+Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php)[[1343](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php#L1343-L1403)]<br>
 
 <hr>
 
@@ -445,7 +445,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php)[[3574](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/mailster.class.php#L3574-L3583)]<br>
+Source: [./classes/mailster.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php)[[3607](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/mailster.class.php#L3607-L3616)]<br>
 
 <hr>
 
@@ -460,7 +460,7 @@ Version | Description
 ------- | -----------
 `2.3.12` | 
 
-Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/placeholder.class.php)[[1330](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/placeholder.class.php#L1330-L1343)]<br>Source: [./classes/tinymce.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tinymce.class.php)[[71](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/tinymce.class.php#L71-L84)]<br>
+Source: [./classes/placeholder.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/placeholder.class.php)[[1336](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/placeholder.class.php#L1336-L1349)]<br>Source: [./classes/tinymce.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tinymce.class.php)[[72](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/tinymce.class.php#L72-L87)]<br>
 
 <hr>
 
@@ -475,7 +475,7 @@ Version | Description
 ------- | -----------
 `3.0` | 
 
-Source: [./classes/precheck.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/precheck.class.php)[[17](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/precheck.class.php#L17-L37)]<br>
+Source: [./classes/precheck.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/precheck.class.php)[[18](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/precheck.class.php#L18-L38)]<br>
 
 <hr>
 
@@ -490,7 +490,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/dashboard.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/dashboard.class.php)[[74](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/dashboard.class.php#L74-L88)]<br>Source: [./classes/ajax.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/ajax.class.php)[[3409](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/ajax.class.php#L3409-L3472)]<br>
+Source: [./classes/dashboard.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/dashboard.class.php)[[75](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/dashboard.class.php#L75-L89)]<br>Source: [./classes/ajax.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/ajax.class.php)[[3420](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/ajax.class.php#L3420-L3483)]<br>
 
 <hr>
 
@@ -512,7 +512,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/notification.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notification.class.php)[[527](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notification.class.php#L527-L568)]<br>
+Source: [./classes/notification.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notification.class.php)[[528](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notification.class.php#L528-L569)]<br>
 
 <hr>
 
@@ -527,7 +527,7 @@ Version | Description
 ------- | -----------
 `3.3.0` | 
 
-Source: [./classes/license.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/license.class.php)[[49](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/license.class.php#L49-L92)]<br>
+Source: [./classes/license.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/license.class.php)[[50](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/license.class.php#L50-L93)]<br>
 
 <hr>
 
@@ -548,7 +548,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[415](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L415-L691)]<br>#### `mailster_autoresponder_timebased`
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[416](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L416-L692)]<br>#### `mailster_autoresponder_timebased`
 
 ###### **Creates scheduled campaigns from time-based autoresponder parents.**
 
@@ -565,7 +565,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[711](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L711-L851)]<br>#### `mailster_workflow_duplicate`
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[712](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L712-L852)]<br>#### `mailster_workflow_duplicate`
 
 ###### **Creates a draft copy of a workflow, optionally overriding args or meta.**
 
@@ -582,7 +582,7 @@ Version | Description
 ------- | -----------
 `4.1.0` | 
 
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[1930](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L1930-L1986)]<br>#### `mailster_campaign_duplicate`
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[1939](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L1939-L1997)]<br>#### `mailster_campaign_duplicate`
 
 ###### **Duplicates a campaign with optional post and meta overrides.**
 
@@ -599,7 +599,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[3184](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L3184-L3254)]<br>#### `mailster_autoresponder_post_published`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[3192](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L3192-L3262)]<br>#### `mailster_autoresponder_post_published`
 
 ###### **Evaluates and queues autoresponder campaigns for a published post.**
 
@@ -616,7 +616,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[5865](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L5865-L5970)]<br>#### `mailster_form_duplicate`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[5873](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L5873-L5978)]<br>#### `mailster_form_duplicate`
 
 ###### **Duplicates a form including fields, lists, and tags.**
 
@@ -633,7 +633,7 @@ Version | Description
 ------- | -----------
 `2.3` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[851](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L851-L899)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[851](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L851-L899)]<br>
 
 <hr>
 
@@ -654,7 +654,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[872](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L872-L1021)]<br>
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[873](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L873-L1022)]<br>
 
 <hr>
 
@@ -676,7 +676,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[1061](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L1061-L1365)]<br>#### `mailster_notification_error`
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[1062](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L1062-L1366)]<br>#### `mailster_notification_error`
 
 ###### **Processes due queue entries: sends campaign and notification emails for this cron turn.**
 
@@ -693,25 +693,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[1061](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L1061-L1382)]<br>#### `mailster_campaign_error`
-
-###### **Processes due queue entries: sends campaign and notification emails for this cron turn.**
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$data->subscriber_id` | `` | 
-`$data->campaign_id` | `` | 
-`$result->get_error_message()` | `` | 
-
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.2` | 
-
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[1061](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L1061-L1403)]<br>#### `mailster_system_error`
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[1062](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L1062-L1383)]<br>#### `mailster_campaign_error`
 
 ###### **Processes due queue entries: sends campaign and notification emails for this cron turn.**
 
@@ -729,7 +711,25 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[1061](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L1061-L1409)]<br>
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[1062](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L1062-L1404)]<br>#### `mailster_system_error`
+
+###### **Processes due queue entries: sends campaign and notification emails for this cron turn.**
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$data->subscriber_id` | `` | 
+`$data->campaign_id` | `` | 
+`$result->get_error_message()` | `` | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.2` | 
+
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[1062](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L1062-L1410)]<br>
 
 <hr>
 
@@ -744,7 +744,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php)[[1061](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/queue.class.php#L1061-L1498)]<br>
+Source: [./classes/queue.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php)[[1062](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/queue.class.php#L1062-L1499)]<br>
 
 <hr>
 
@@ -764,7 +764,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L445-L579)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[481](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L481-L611)]<br>
 
 <hr>
 
@@ -785,7 +785,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L445-L601)]<br>#### `mailster_subscriber_delete`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[481](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L481-L633)]<br>#### `mailster_subscriber_delete`
 
 ###### **Handles create and update submissions on the subscriber edit screen.**
 
@@ -802,7 +802,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L445-L636)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[481](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L481-L668)]<br>
 
 <hr>
 
@@ -824,7 +824,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[1559](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L1559-L1617)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[1592](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L1592-L1650)]<br>
 
 <hr>
 
@@ -847,7 +847,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[1628](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L1628-L1679)]<br>#### `mailster_remove_custom_field`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[1661](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L1661-L1712)]<br>#### `mailster_remove_custom_field`
 
 ###### **Deletes a custom field row for a subscriber.**
 
@@ -865,7 +865,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[1690](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L1690-L1718)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[1723](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L1723-L1751)]<br>
 
 <hr>
 
@@ -889,7 +889,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[3249](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L3249-L3292)]<br>#### `mailster_unsubscribe`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[3288](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L3288-L3331)]<br>#### `mailster_unsubscribe`
 
 ###### **Unsubscribes a subscriber looked up by an arbitrary field type.**
 
@@ -908,7 +908,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[3249](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L3249-L3312)]<br>#### `mailster_bounce`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[3288](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L3288-L3351)]<br>#### `mailster_bounce`
 
 ###### **Records a hard or soft bounce for a subscriber and campaign.**
 
@@ -928,7 +928,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[4343](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L4343-L4372)]<br>#### `mailster_bounce`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[4384](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L4384-L4413)]<br>#### `mailster_bounce`
 
 ###### **Records a hard or soft bounce for a subscriber and campaign.**
 
@@ -948,7 +948,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[4343](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L4343-L4391)]<br>
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[4384](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L4384-L4432)]<br>
 
 <hr>
 
@@ -970,7 +970,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php)[[4632](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/subscribers.class.php#L4632-L4673)]<br>#### `mailster_trigger`
+Source: [./classes/subscribers.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php)[[4673](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/subscribers.class.php#L4673-L4714)]<br>#### `mailster_trigger`
 
 ###### **Fires `mailster_trigger` for a single workflow, trigger, and subscriber.**
 
@@ -988,7 +988,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[371](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L371-L383)]<br>
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[374](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L374-L386)]<br>
 
 <hr>
 
@@ -1010,7 +1010,7 @@ Version | Description
 ------- | -----------
 `4.1.5` | 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php)[[130](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php#L130-L210)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php)[[131](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php#L131-L211)]<br>
 
 <hr>
 
@@ -1030,7 +1030,7 @@ Version | Description
 ------- | -----------
 `4.1.5` | 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php)[[215](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php#L215-L236)]<br>#### `mailster_campaign_pause`
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php)[[216](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php#L216-L237)]<br>#### `mailster_campaign_pause`
 
 ###### **Pauses an active or queued campaign, optionally at a future timestamp.**
 
@@ -1046,7 +1046,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[2946](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L2946-L2975)]<br>#### `mailster_campaign_start`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[2954](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L2954-L2983)]<br>#### `mailster_campaign_start`
 
 ###### **Starts or schedules a campaign for delivery.**
 
@@ -1062,7 +1062,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[2983](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L2983-L3027)]<br>#### `mailster_campaign_start`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[2991](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L2991-L3035)]<br>#### `mailster_campaign_start`
 
 ###### **Resumes a paused campaign, optionally at a future timestamp.**
 
@@ -1078,7 +1078,7 @@ Version | Description
 ------- | -----------
 `2.4.10` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[3037](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L3037-L3084)]<br>#### `mailster_finish_campaign`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[3045](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L3045-L3092)]<br>#### `mailster_finish_campaign`
 
 ###### **Marks a campaign finished and clears its queue, optionally scheduled.**
 
@@ -1094,7 +1094,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[3094](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L3094-L3174)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[3102](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L3102-L3182)]<br>
 
 <hr>
 
@@ -1109,7 +1109,7 @@ Version | Description
 ------- | -----------
 `4.1.5` | 
 
-Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php)[[215](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/notices.class.php#L215-L237)]<br>
+Source: [./classes/notices.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php)[[216](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/notices.class.php#L216-L238)]<br>
 
 <hr>
 
@@ -1124,7 +1124,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[386](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L386-L418)]<br>
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[389](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L389-L423)]<br>
 
 <hr>
 
@@ -1139,7 +1139,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php)[[386](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/automation.class.php#L386-L421)]<br>
+Source: [./classes/automation.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php)[[389](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/automation.class.php#L389-L426)]<br>
 
 <hr>
 
@@ -1159,7 +1159,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[199](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L199-L239)]<br>#### `mailster_update_list`
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[200](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L200-L240)]<br>#### `mailster_update_list`
 
 ###### **Inserts or updates a list row and optionally assigns subscribers.**
 
@@ -1175,7 +1175,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[333](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L333-L416)]<br>
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[334](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L334-L417)]<br>
 
 <hr>
 
@@ -1195,7 +1195,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[199](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L199-L250)]<br>
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[200](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L200-L251)]<br>
 
 <hr>
 
@@ -1217,7 +1217,7 @@ Version | Description
 ------- | -----------
 `2.3` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[544](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L544-L576)]<br>#### `mailster_list_added`
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[545](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L545-L577)]<br>#### `mailster_list_added`
 
 ###### **Inserts a list–subscriber relationship and fires assignment hooks.**
 
@@ -1235,7 +1235,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[696](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L696-L740)]<br>#### `mailster_list_confirmed`
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[697](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L697-L741)]<br>#### `mailster_list_confirmed`
 
 ###### **Inserts a list–subscriber relationship and fires assignment hooks.**
 
@@ -1253,7 +1253,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php)[[696](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/lists.class.php#L696-L743)]<br>
+Source: [./classes/lists.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php)[[697](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/lists.class.php#L697-L744)]<br>
 
 <hr>
 
@@ -1275,7 +1275,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[5443](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L5443-L5627)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[5451](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L5451-L5635)]<br>
 
 <hr>
 
@@ -1297,7 +1297,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[5443](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L5443-L5639)]<br>#### `mailster_system_error`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[5451](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L5451-L5647)]<br>#### `mailster_system_error`
 
 ###### **Sends a campaign email to a subscriber with tracking and tags.**
 
@@ -1315,7 +1315,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[5443](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L5443-L5647)]<br>#### `mailster_campaign_error`
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[5451](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L5451-L5655)]<br>#### `mailster_campaign_error`
 
 ###### **Sends a campaign email to a subscriber with tracking and tags.**
 
@@ -1333,7 +1333,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[5443](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L5443-L5655)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[5451](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L5451-L5663)]<br>
 
 <hr>
 
@@ -1348,7 +1348,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[6256](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L6256-L6405)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[6264](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L6264-L6413)]<br>
 
 <hr>
 
@@ -1363,7 +1363,7 @@ Version | Description
 ------- | -----------
 `2.3` | 
 
-Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php)[[6415](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/campaigns.class.php#L6415-L6430)]<br>
+Source: [./classes/campaigns.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php)[[6423](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/campaigns.class.php#L6423-L6438)]<br>
 
 <hr>
 
@@ -1378,7 +1378,7 @@ Version | Description
 ------- | -----------
 `2.3.17` | 
 
-Source: [./classes/helper.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/helper.class.php)[[1392](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/helper.class.php#L1392-L1406)]<br>
+Source: [./classes/helper.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/helper.class.php)[[1393](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/helper.class.php#L1393-L1407)]<br>
 
 <hr>
 
@@ -1393,7 +1393,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[103](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L103-L128)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[104](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L104-L129)]<br>
 
 <hr>
 
@@ -1408,7 +1408,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[103](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L103-L138)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[104](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L104-L139)]<br>
 
 <hr>
 
@@ -1423,7 +1423,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[103](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L103-L144)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[104](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L104-L145)]<br>
 
 <hr>
 
@@ -1438,7 +1438,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[153](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L153-L166)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[154](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L154-L167)]<br>
 
 <hr>
 
@@ -1453,7 +1453,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[153](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L153-L171)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[154](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L154-L172)]<br>
 
 <hr>
 
@@ -1468,7 +1468,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[196](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L196-L213)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[197](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L197-L214)]<br>
 
 <hr>
 
@@ -1483,7 +1483,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[196](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L196-L223)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[197](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L197-L224)]<br>
 
 <hr>
 
@@ -1498,7 +1498,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[196](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L196-L228)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[197](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L197-L229)]<br>
 
 <hr>
 
@@ -1518,7 +1518,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[468](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L468-L588)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[469](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L469-L586)]<br>
 
 <hr>
 
@@ -1538,7 +1538,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[724](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L724-L765)]<br>#### `mailster_add_form`
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[724](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L724-L765)]<br>#### `mailster_add_form`
 
 ###### **Inserts a new form with defaults and returns its ID.**
 
@@ -1554,7 +1554,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[778](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L778-L840)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[778](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L778-L840)]<br>
 
 <hr>
 
@@ -1576,7 +1576,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[1067](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L1067-L1102)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[1067](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L1067-L1102)]<br>
 
 <hr>
 
@@ -1598,7 +1598,7 @@ Version | Description
 ------- | -----------
 `3.0` | 
 
-Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php)[[1167](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/forms.class.php#L1167-L1202)]<br>
+Source: [./classes/forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php)[[1167](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/forms.class.php#L1167-L1202)]<br>
 
 <hr>
 
@@ -1620,7 +1620,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php)[[2445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php#L2445-L2488)]<br>
+Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php)[[2453](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php#L2453-L2496)]<br>
 
 <hr>
 
@@ -1642,7 +1642,7 @@ Version | Description
 ------- | -----------
 `4.0.0` | 
 
-Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php)[[2445](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/block-forms.class.php#L2445-L2504)]<br>
+Source: [./classes/block-forms.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php)[[2453](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/block-forms.class.php#L2453-L2512)]<br>
 
 <hr>
 
@@ -1662,7 +1662,7 @@ Version | Description
 ------- | -----------
 `2.2` | 
 
-Source: [./classes/ajax.class.php](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/ajax.class.php)[[3354](https://github.com/everpress-co/mailster/blob/4.1.20/./classes/ajax.class.php#L3354-L3389)]<br>
+Source: [./classes/ajax.class.php](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/ajax.class.php)[[3365](https://github.com/everpress-co/mailster/blob/4.1.21/./classes/ajax.class.php#L3365-L3400)]<br>
 
 
 
